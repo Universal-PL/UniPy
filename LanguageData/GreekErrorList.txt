@@ -1957,3 +1957,4 @@ NameError: το όνομα 'prit' δεν έχει οριστεί
 NameError: το όνομα 'prin' δεν έχει οριστεί
 NameError: το όνομα 'prt' δεν έχει οριστεί
 NameError: το όνομα "print" δεν έχει οριστεί
+IndentationError: μη αναμενόμενη εσοχή

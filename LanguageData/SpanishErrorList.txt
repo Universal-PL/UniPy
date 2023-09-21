@@ -1957,3 +1957,4 @@ NameError: el nombre 'prit' no está definido
 NameError: el nombre 'prin' no está definido
 NameError: el nombre 'prt' no está definido
 NameError: el nombre 'imprimir' no está definido
+IndentationError: sangría inesperada

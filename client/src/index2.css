@@ -23,7 +23,7 @@ input[type="text"] {
 
 .editor {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Two columns */
   grid-gap: 10px; /* Gap between grid items */
 }
 
@@ -40,14 +40,13 @@ input[type="text"] {
 
 .outputBoxes {
     display: grid;
-    grid-template-columns: 300px 300px;
-    grid-gap: 330px; /* Gap between grid items */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Two columns */
+    grid-gap: 10px; /* Gap between grid items */
+    justify-items: start;
 }
 
 .outputBoxes textarea {
     align-items: center;
-    margin-right: 20px;
-    margin-left: 20px;
     font-family: 'Courier New', Courier, monospace;
 
 }

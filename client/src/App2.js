@@ -206,38 +206,29 @@ class App extends Component {
     return (
             <div className="App">
               <div>
-            <div className="editor">
-              <p>
-                <label htmlFor="ToTranslate" style={{ verticalAlign: 'top' }}>
-                </label>
-                <select id="Language1" name="Language1" onChange={this.changeLanguage1}>
-                <option value="English">English</option>
-                <option value="Spanish">Spanish</option>
-                <option value="French">French</option>
-                <option value="Greek">Greek</option>
-                <option value="Hindi">Hindi</option>
-                <option value="Bengali">Bengali</option>
-                <option value="Mandarin">Mandarin</option>
-                <option value="Kurdish">Kurdish</option>
-              </select>
-                <textarea rows="22" cols="35" id="ToTranslate" name="ToTranslate" className={this.state.selectedLang1 === 'Kurdish' ? 'rtl-textbox' : ''}></textarea>
-                      </p>
-                      <p>
-                      <h1>UniPy</h1>
-                      <div className="translate">
-                    <button type="button" onClick={this.DoTranslate} style={{ fontSize: '1.2em', padding: '5px' }}>
+                <h1>UniPy</h1>
+                
+            <div className="translate">
+            <button type="button" onClick={this.DoTranslate} style={{ fontSize: '1.2em', padding: '5px' }}>
                     Translate &rarr;
                   </button>
                 </div>
             <div className="swapButton">
-            <button type="button" onClick={this.Swap} style={{fontSize: '0.75em', padding: '5px' }}>Swap Natural Languages
-            </button>
+            <button type="button" onClick={this.Swap} style={{fontSize: '0.75em', padding: '5px' }}>Swap</button>
             </div>
-                      </p>
-                      <p>
-                        <label htmlFor="Translation" style={{ verticalAlign: 'top' }}>
-                        </label>
-                        <select id="Language2" name="Language2" onChange={this.changeLanguage2}>
+            <div className="Language">
+            <select id="Language1" name="Language1" onChange={this.changeLanguage1}>
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="French">French</option>
+                <option value="Greek">Greek</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Bengali">Bengali</option>
+                <option value="Mandarin">Mandarin</option>
+                <option value="Kurdish">Kurdish</option>
+              </select>
+
+            <select id="Language2" name="Language2" onChange={this.changeLanguage2}>
                 <option value="Spanish">Spanish</option>
                 <option value="French">French</option>
                 <option value="Greek">Greek</option>
@@ -247,32 +238,35 @@ class App extends Component {
                 <option value="Kurdish">Kurdish</option>
                 <option value="English">English</option>
               </select>
+            </div>
+            <div className="editor">
+              <p>
+                <label htmlFor="ToTranslate" style={{ verticalAlign: 'top' }}>
+                </label>
+                <textarea rows="22" cols="35" id="ToTranslate" name="ToTranslate" className={this.state.selectedLang1 === 'Kurdish' ? 'rtl-textbox' : ''}></textarea>
+                      </p>
+                      <p>
+                        <label htmlFor="Translation" style={{ verticalAlign: 'top' }}>
+                        </label>
                 <textarea rows="22" cols="35" id="Translation" name="Translation" className={this.state.selectedLang2 === 'Kurdish' ? 'rtl-textbox' : ''}></textarea>
                       </p>
             </div>
             <div className="exec">
                   <p>
-            
-            
+            <button type="button" onClick={this.DoExecuteOriginal} style={{ fontSize: '1.2em', padding: '5px' }}>
+                      Execute
+                    </button>
+            <button type="button" onClick={this.DoExecuteForeign} style={{ fontSize: '1.2em', padding: '5px' }}>
+                      Execute
+                    </button>
                   </p>
                 </div>
                 <div className="outputBoxes">
-                 <p>
-                 
                   <label htmlFor="outputTextBox1" style={{ verticalAlign: 'top' }}></label>
                   <textarea rows="4" cols="35" id="outputTextBox1" name="outputTextBox" readOnly></textarea>
-                  <button type="button" onClick={this.DoExecuteOriginal} style={{ fontSize: '1.2em', padding: '5px' }}>
-                      Execute
-                    </button>
-                  </p>
-                  <p>
-                 
+
                   <label htmlFor="outputTextBox2" style={{ verticalAlign: 'top' }}></label>
                   <textarea rows="4" cols="35" id="outputTextBox2" name="outputTextBox2" readOnly></textarea>
-                   <button type="button" onClick={this.DoExecuteForeign} style={{ fontSize: '1.2em', padding: '5px' }}>
-                      Execute
-                    </button>
-                  </p>
                 </div>
               </div>
             </div>

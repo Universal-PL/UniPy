@@ -17,18 +17,23 @@ def swapLineOrder(line):
     # goes through line similarly to main program, but just swaps order
     tokens = list()
     del_quotes = False
+    comment = False
     i = 0
     while i < len(line):
         # finding the words
         word = ""
         word_flag = False
-        while i<len(line) and line[i] not in non_alpha:#((line[i].isalpha()) or (line[i] == '_')):
+        while i<len(line) and line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
             word_flag = True
             word += line[i]
             i += 1
         # word must be found, so add it
         if word != '':
-            if del_quotes:
+            if comment:
+                #tokens.append(word)
+                tokens.insert(str_start_point, word)
+                str_start_point += 1
+            elif del_quotes:
                 #tokens.append(word)
                 tokens.insert(str_start_point, word)
                 str_start_point += 1
@@ -38,22 +43,37 @@ def swapLineOrder(line):
         # now write the other separators/operators/etc.
         while (i < len(line) and line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
             # for not reordering comments, things in quotes, etc.
-            if line[i] == "#":
+            if line[i] == "#" and not comment:
+                comment = True
                 # no need to reorder anything after this
                 # reorder, clean up, and return
-                tokens.reverse()
-                delimiterSwap(tokens)
-                return "".join(tokens.append(line[i:]))
+                #tokens.reverse()
+                #delimiterSwap(tokens)
+                tokens.insert(0,line[i])
+                str_start_point = 0
+                #tokens.insert(0,line[i+1:])
                 
-            elif (line[i] == "'" or line[i] == '"'):
-                if del_quotes == True:
-                    del_quotes = False
-                    tokens.insert(str_start_point, line[i])
-                elif del_quotes == False:
-                    del_quotes = True
-                    tokens.insert(0, line[i])
+                #i = len(line)
+                #return "".join(tokens.append(line[i:]))
+                
+            elif (line[i] == "'" or line[i] == '"') and not comment:
+                # check for '''
+                if not (i+2 < len(line) and line[i] == "'" and line[i+1] == "'" and line[i+2] == "'"):
+                    if del_quotes == True:
+                        del_quotes = False
+                        tokens.insert(str_start_point, line[i])
+                    elif del_quotes == False:
+                        del_quotes = True
+                        tokens.insert(0, line[i])
+                        str_start_point = 1
+                else: # otherwise just write the three '''
+                    tokens.insert(0,"'''")
                     str_start_point = 1
+                    i += 2
             # time to add the item to the token list
+            elif (comment) and line[i] != '\n':
+                tokens.insert(str_start_point, line[i])
+                str_start_point += 1
             elif del_quotes == False:
                 # swapping delimiters if necessary
                 if line[i] == ')':#'\u202C)\u202C':
@@ -74,16 +94,108 @@ def swapLineOrder(line):
                     tokens.insert(0,'<')#'\u202C<\u202C'
                 else:
                     tokens.insert(0,line[i])
+                    #print("inserting a '"+str(line[i])+"'")
+
             else:
                 #tokens.append(line[i])
                 tokens.insert(str_start_point, line[i])
                 str_start_point += 1
             i += 1
     # join the resulting tokens list, return the string
-    result = ''.join(tokens)
+    #print(tokens)
+    #result = ''.join(tokens)
     #print('result after swapping:',result)
-    return result
-
+    #return result
+    return tokens
+    
+    
+def swapBack(line):
+    # goes through line similarly to main program, but just swaps order
+    tokens = list()
+    del_quotes = False
+    comment = False
+    i = len(line) - 1
+    while i >= 0:
+        # finding the words
+        word = ""
+        word_flag = False
+        while i >= 0 and line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
+            word_flag = True
+            word = line[i] + word
+            i -= 1
+        # word must be found, so add it
+        if word != '':
+            if comment:
+                #tokens.append(word)
+                tokens.insert(str_start_point, word)
+                #str_start_point -= 1
+            elif del_quotes:
+                #tokens.append(word)
+                tokens.insert(str_start_point, word)
+                #str_start_point -= 1
+            else:
+                tokens.insert(len(line)-1,word)
+            
+        # now write the other separators/operators/etc.
+        while (i >= 0 and line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
+            # for not reordering comments, things in quotes, etc.
+            if line[i] == "#" and not comment:
+                comment = True
+                # no need to reorder anything after this
+                # reorder, clean up, and return
+                #tokens.reverse()
+                #delimiterSwap(tokens)
+                tokens.insert(len(tokens),line[i])
+                str_start_point = len(tokens)
+                #tokens.insert(0,line[i+1:])
+                
+                #i = len(line)
+                #return "".join(tokens.append(line[i:]))
+                
+            elif (line[i] == "'" or line[i] == '"') and not comment:
+                if del_quotes == True:
+                    del_quotes = False
+                    tokens.insert(len(tokens), line[i])
+                elif del_quotes == False:
+                    del_quotes = True
+                    tokens.insert(len(line)-1, line[i])
+                    str_start_point = len(tokens)
+            # time to add the item to the token list
+            elif comment and line[i] != '\n':
+                tokens.insert(str_start_point, line[i])
+                #str_start_point -= 1
+            elif del_quotes == False:
+                # swapping delimiters if necessary
+                if line[i] == ')':#'\u202C)\u202C':
+                    tokens.insert(len(line)-1,'(')#'\u202C(\u202C'
+                elif line[i] == '(':#'\u202C(\u202C':
+                    tokens.insert(len(line)-1,')')#'\u202C)\u202C'
+                elif line[i] == '[':#'\u202C[\u202C':
+                    tokens.insert(len(line)-1,']')#'\u202C]\u202C'
+                elif line[i] == ']':#'\u202C]\u202C':
+                    tokens.insert(len(line)-1,'[')#'\u202C[\u202C'
+                elif line[i] == '{':#'\u202C{\u202C':
+                    tokens.insert(len(line)-1,'}')#'\u202C}\u202C'
+                elif line[i] == '}':#'\u202C}\u202C':
+                    tokens.insert(len(line)-1,'{')#'\u202C{\u202C'
+                elif line[i] == '<':#'\u202C<\u202C':
+                    tokens.insert(len(line)-1,'>')#'\u202C>\u202C'
+                elif line[i] == '>':#'\u202C>\u202C':
+                    tokens.insert(len(line)-1,'<')#'\u202C<\u202C'
+                else:
+                    tokens.insert(len(line)-1,line[i])
+                    #print("inserting a '"+str(line[i])+"'")
+            else:
+                #tokens.append(line[i])
+                tokens.insert(str_start_point, line[i])
+                #str_start_point -= 1
+            i -= 1
+    # join the resulting tokens list, return the string
+    #print(tokens)
+    #result = ''.join(tokens)
+    #print('result after swapping:',result)
+    #return result
+    return ''.join(tokens)
 #################
 
 
@@ -93,8 +205,13 @@ RTL = ['Kurdish'] # UPDATE THIS AND StringCodeTranslator.py AS LANGUAGE LIST GRO
 lang1 = sys.argv[1]
 lang2 = 'English'
 orderSwap = False
-if (lang1 not in RTL and lang2 in RTL) or (lang1 in RTL and lang2 not in RTL):
+to_RTL = False # this is about direction of swap
+if (lang1 not in RTL and lang2 in RTL):
     orderSwap = True
+    to_RTL = True
+elif (lang1 in RTL and lang2 not in RTL):
+    orderSwap = True
+    to_RTL = False
 
 # set of non-alphanumeric characters used in Python
 non_alpha = {' ','\t','\n'}
@@ -146,8 +263,8 @@ while line != "":
     tokenIndex = list()
     
     ### if changing word order, must swap first to avoid complications with key orderings
-    if orderSwap == True:
-        line = swapLineOrder(line)
+    if orderSwap == True and not to_RTL:
+        line = swapBack(line)
 
     comment = False
     i = 0
@@ -233,7 +350,11 @@ while line != "":
                 break
     
     #print(tokenList)
-    if tokenList[0]=='\n':
+    ### if changing word order to RTL, must swap after to avoid complications with key orderings
+    if orderSwap == True and to_RTL:
+        tokenList = swapLineOrder(tokenList)
+        
+    if len(tokenList) > 0 and tokenList[0]=='\n':
         tokenList.pop(0)
         to_write = ''.join(tokenList) + '\n'
     else:

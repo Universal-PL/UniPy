@@ -1957,3 +1957,4 @@ NameError: navê 'prit' nehatiye diyarkirin
 NameError: navê 'prin' nehatiye diyarkirin
 NameError: navê 'prt' nehatiye diyarkirin
 NameError: navê 'çapkirin' nehatiye diyarkirin
+IndentationError: ketina neçaverêkirî
