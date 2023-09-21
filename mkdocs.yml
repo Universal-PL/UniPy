@@ -8,7 +8,6 @@ nav:
 
 theme:
   name: 'material'
-  custom_dir: 'docs/overrides'
   logo: 'images/sage-logo.png'
   favicon: 'images/sage-logo.png'
   font: false
