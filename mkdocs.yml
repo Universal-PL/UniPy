@@ -5,11 +5,10 @@ copyright: '©2023'
 nav:
   - Home: index.md
 
-
 theme:
   name: 'material'
-  logo: 'images/sage-logo.png'
-  favicon: 'images/sage-logo.png'
+  logo: 'images/GMU-Logo-small.png'
+  favicon: 'images/GMU-Logo-small.png.png'
   font: false
 
   icon:
@@ -86,8 +85,3 @@ plugins:
 
 extra:
   generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/sageselab
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/sageselab
