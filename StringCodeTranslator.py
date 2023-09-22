@@ -110,8 +110,9 @@ def swapLineOrder(line):
     #return result
     return tokens
         
+###############################
 
-
+# similar to the swapLineOrder(), but for RTL -> LTR
 def swapBack(line):
     # goes through line similarly to main program, but just swaps order
     tokens = list()
@@ -205,10 +206,11 @@ Lang1_list = list()
 Lang2_list = list()
 
 # determining whether term order needs to be switched (support for right-left languages)
-RTL = ['Kurdish'] # UPDATE THIS AND uniPython.py AS LANGUAGE LIST GROWS!!!
+RTL = ['Kurdish','Arabic'] # UPDATE THIS AND uniPython.py AS LANGUAGE LIST GROWS!!!
 lang1 = sys.argv[2]
 lang2 = sys.argv[3]
 orderSwap = False
+both_RTL = False
 to_RTL = False # this is about direction of swap
 if (lang1 not in RTL and lang2 in RTL):
     orderSwap = True
@@ -216,6 +218,9 @@ if (lang1 not in RTL and lang2 in RTL):
 elif (lang1 in RTL and lang2 not in RTL):
     orderSwap = True
     to_RTL = False
+elif (lang1 in RTL and lang2 in RTL):
+    orderSwap = True
+    both_RTL = True
     
 # set of non-alphanumeric characters used in Python
 non_alpha = {' ','\t','\n', '\r', '\b'}
@@ -270,7 +275,7 @@ while line != "":
     tokenIndex = list()
     
     ### if changing word order, must swap first to avoid complications with key orderings
-    if orderSwap == True and not to_RTL:
+    if orderSwap == True and (not to_RTL or both_RTL):
         line = swapBack(line)
     comment = False
     i = 0
@@ -362,7 +367,7 @@ while line != "":
                 break
     
     ### if changing word order to RTL, must swap after to avoid complications with key orderings
-    if orderSwap == True and to_RTL:
+    if orderSwap == True and (to_RTL or both_RTL):
         tokenList = swapLineOrder(tokenList)
         
     if len(tokenList) > 0 and tokenList[0]=='\n':

@@ -1958,3 +1958,5 @@ NameError: name 'prin' is not defined
 NameError: name 'prt' is not defined
 NameError: name 'prnt' is not defined
 IndentationError: unexpected indent
+NameError: name '打印' is not defined
+NameError: name 'طباعة' is not defined

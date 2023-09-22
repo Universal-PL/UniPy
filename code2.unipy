@@ -1,3 +1,16 @@
- Missing closing parenthesis#  "Hello, world")چاپکردن
+‪τύπωσε‬('hello world') # this is a comment
+x = 3
+‪Για‬ i ‪σε‬ ‪εύρος‬(x):
+	‪τύπωσε‬(i)
+	‪αν‬ i % 2 == 0:
+		# if i is even
+		‪τύπωσε‬('even')
+	‪αλλιώς‬:
+		‪τύπωσε‬('odd')
+
+
+
+
+
 
 

@@ -1958,3 +1958,5 @@ NameError : le nom 'prin' n'est pas défini
 NameError : le nom 'prt' n'est pas défini
 NameError : le nom « imprimer » n'est pas défini
 IndentationError : retrait inattendu
+NameError : le nom « imprimer » n'est pas défini
+NameError : le nom « Imprimer » n'est pas défini

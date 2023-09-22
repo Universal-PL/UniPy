@@ -1,0 +1,1962 @@
+خطأ التأكيد: يجب أن تكون الرؤوس (('نوع المحتوى'، 'نص/عادي'))
+("200"، "خطأ مؤكد: يجب أن تتكون الحالة من 4 أحرف على الأقل")،
+("20X OK"، "خطأ مؤكد: يجب أن تبدأ رسالة الحالة برمز مكون من 3 أرقام")،
+("200OK"، "خطأ مؤكد: يجب أن تحتوي رسالة الحالة على مسافة بعد الرمز")،
+"طباعة ('AssertionError:0:فشل CLOEXEC.')"]).wait()
+self.assertIn('AssertionError: تمزق سيء', result.failures[0][1])
+self.assertIn('AssertionError: تمزق سيء', result.failures[0][1])
+باستثناء خطأ التأكيد:
+# خطأ التأكيد: 'v@entry=()' != '()'
+خطأ في التأكيد: 1 != 0
+خطأ في التأكيد: 1 != 0
+خطأ في التأكيد: 1 != 0
+خطأ في التأكيد: 1 != 0
+خطأ التأكيد: "3" بشكل غير متوقع ليس أكبر من أو يساوي "4"
+خطأ التأكيد: من المتوقع أن يتم استدعاؤه مرة واحدة. دعا 2 مرات.
+خطأ التأكيد: متوقع: (({6},, {})
+خطأ التأكيد: مكالمة متوقعة: وهمية ({1})
+خطأ التأكيد: متوقع: استدعاء (<__main__.Foo object at 0x...>)
+خطأ التأكيد: متوقع: ((<كائن متطابق عند 0x...>,, {})
+خطأ التأكيد: من المتوقع أن يتم استدعاء "الطريقة" مرة واحدة. دعا 2 مرات.
+خطأ التأكيد: من المتوقع أن يتم استدعاء "النموذج الوهمي" مرة واحدة. دعا 2 مرات.
+خطأ التأكيد: من المتوقع عدم استدعاء "مرحبًا". تم الاتصال به 1 مرات.
+AssertionError: من المتوقع أن يكون هناك انتظار وهمي.
+AssertionError: من المتوقع أن يتم انتظار النموذج الوهمي مرة واحدة. انتظرت 2 مرات.
+خطأ التأكيد: لم يتم العثور على المكالمة المتوقعة.
+AssertionError: من المتوقع أن يتم انتظار النموذج الوهمي مرة واحدة. انتظرت 2 مرات.
+خطأ التأكيد: لم يتم العثور على وهمية ('أخرى') في انتظار
+خطأ التأكيد: لم يتم العثور على الانتظار.
+خطأ التأكيد: من المتوقع أن يتم استدعاء "النموذج الوهمي" مرة واحدة. دعا 2 مرات.
+خطأ في السمة: لا يحتوي الكائن "MyLocal" على سمة "اللون"
+A().a # خطأ في السمة مرتفع: لا يحتوي المثيل على السمة 'a'
+# خطأ في السمة: نوع الكائن "الاسم" لا يحتوي على السمة "x"
+# خطأ في السمة: تم تحديد 'x' في _anonymous_ ولكن ليس في _fields_
+خطأ في السمة: السمة "gi_running" لكائنات "المولد" غير قابلة للكتابة
+AttributeError: الكائن 'defaultdict2' لا يحتوي على السمة 'x1'
+خطأ في السمة: الوحدة النمطية "test.test_doctest" لا تحتوي على سمة "sillySetup"
+خطأ في السمة: الوحدة النمطية "test.test_doctest" لا تحتوي على سمة "sillySetup"
+# AttributeError: الكائن 'str' لا يحتوي على السمة 'is_attachment'
+# AttributeError: كائن 'SMTP' لا يحتوي على سمة 'sock')
+باستثناء AttributeError: # ليست كل الكائنات لها __dict__ (على سبيل المثال، تحدد الفئة فتحات)
+باستثناء AttributeError: إرجاع لا شيء
+باستثناء خطأ في السمة: تمرير
+باستثناء خطأ في السمة: تمرير
+باستثناء AttributeError: # للأنظمة الأساسية التي لا تحتوي على _getframemodulename()
+باستثناء AttributeError: # لا يوجد مقبس
+باستثناء AttributeError: # لا يوجد مقبس
+باستثناء AttributeError: ربما تم إغلاق # Shell
+باستثناء AttributeError: ربما تم إغلاق # Shell
+باستثناء AttributeError: # قد يكون PyShell
+باستثناء AttributeError: # bpo-35379: تم الاتصال بالإغلاق مرتين
+خطأ في السمة: كائن "الطريقة" لا يحتوي على سمة
+خطأ في السمة: أولاً
+خطأ في السمة: أولاً
+خطأ في السمة: أولاً
+خطأ في السمة: أولاً
+خطأ في السمة: أولاً
+خطأ في السمة: الوحدة النمطية "sys" لا تحتوي على السمة "__file__"
+AttributeError: الكائن لا يحتوي على سمة "old_method"
+خطأ في السمة: لا يحتوي الكائن "NoneType" على سمة "المجموعة"
+خطأ في السمة: ف
+خطأ في السمة: <module 'sys' (مضمن)> لا يحتوي على السمة 'non_existing_attribute'
+خطأ في السمة: لا يحتوي الكائن الوهمي على سمة "assret_call_with"
+خطأ في السمة: لا يحتوي الكائن الوهمي على سمة "assret_call_with"
+خطأ في السمة: الكائن الوهمي لا يحتوي على السمة "أ"
+خطأ في السمة: الكائن الوهمي لا يحتوي على السمة "أ"
+خطأ في السمة: كائن "الطريقة" لا يحتوي على سمة "whoami"
+خطأ في السمة: كائن "الوحدة النمطية" لا يحتوي على السمة "f"
+خطأ في السمة: كائن "الوحدة النمطية" لا يحتوي على السمة "f"
+خطأ في السمة: كائن "الوحدة النمطية" لا يحتوي على السمة "f"
+خطأ في السمة: لم يتم العثور على الدالة 'MyOwnFunction'
+خطأ في السمة: لم يتم العثور على الدالة الترتيبية 0
+خطأ في السمة: x
+خطأ في السمة: x
+خطأ في السمة: الكائن "C" لا يحتوي على السمة "newatr"
+خطأ في السمة: لا يحتوي الكائن "NoneType" على السمة "x"
+AttributeError: الوحدة النمطية "المجموعات" لا تحتوي على سمة "namedtoplo". هل تقصد: اسمه طبل؟
+خطأ في السمة: لا يحتوي الكائن 'ClassWithoutGetAttr' على السمة 'z'
+خطأ في السمة: الكائن "C" لا يحتوي على السمة "_C__x"
+خطأ في السمة: كائن "المركبة" لا يحتوي على السمة "id_nubmer"
+AttributeError: الخاصية 'dept' للكائن 'غير القابل للتغيير' لا تحتوي على أداة ضبط
+خطأ في السمة: الكائن "غير القابل للتغيير" لا يحتوي على سمة "الموقع"
+خطأ في السمة: الكائن "H" لا يحتوي على السمة "xz"
+EXPORT_DATA(PyExc_EOFEخطأ)
+EOF. يقوم الآن برفع :exc:`~ssl.SSLEOFError`، مطابقًا للسلوك السابق
+يقوم ssl.wrap_socket() الآن برفع ssl.SSLEOFError بدلاً من OSError عند النظير
+نظرًا لأن ``read()`` يمكنه رفع :exc:`ssl.SSLEOFError` على نظام التشغيل Windows. التصحيح بواسطة
+- المشكلة رقم 1159051: يُثير GzipFile الآن خطأ EOFError عند قراءة ملف تالف
+- المشكلة رقم 5334: فشل array.fromfile() في إدراج القيم عند ظهور EOFError.
+[data.PyExc_EOFError]
+الكائنات/الاستثناءات.c:PyExc_EOFError static PyTypeObject PyExc_EOFError
+الكائنات/الاستثناءات.c:_PyExc_EOFError static PyTypeObject _PyExc_EOFError
+الكائنات/الاستثناءات.c - _PyExc_EOFError -
+الكائنات/الاستثناءات.c - PyExc_EOFError -
+إذا قام المستخدم بالضغط على EOF (*nix: Ctrl-D، Windows: Ctrl-Z+Return)، قم برفع EOFError.
+PyErr_SetNone(PyExc_EOFError);
+PyErr_SetString(PyExc_EOFError،
+PyErr_SetString(PyExc_EOFError،
+PyErr_SetString(PyExc_EOFError،
+PyErr_SetString(PyExc_EOFError،
+PyErr_SetString(PyExc_EOFError،
+تنسيق تنظيمي غير متوافق للإصدار)، قم برفع EOFError أو ValueError أو
+إذا لم يتم العثور على قيمة صالحة، قم برفع EOFError أو ValueError أو TypeError. إضافي
+إذا قام المستخدم بالضغط على EOF (*nix: Ctrl-D، Windows: Ctrl-Z+Return)، فارفع خطأ EOFE.\n
+التنسيق التنظيمي غير المتوافق للإصدار)، قم برفع EOFError أو ValueError أو\n
+إذا لم يتم العثور على قيمة صالحة، قم برفع EOFError أو ValueError أو TypeError. إضافي\n
+PyAPI_DATA(PyObject *) PyExc_EOFError;
+* EOFError يمتد الاستثناء
+SimpleExtendsException(PyExc_Exception، EOFError،
+العنصر (EOFEخطأ)،
+PyErr_SetString(PyExc_EOFError،
+PyErr_SetString(PyExc_EOFError،
+باستثناء EOFEخطأ:
+باستثناء (EOFError، aifc.Error):
+باستثناء (EOFError، wave.Error):
+رفع EOFError("انتهى الملف المضغوط قبل"
+رفع EOFError("انتهى الملف المضغوط قبل"
+رفع EOFError("انتهى الملف المضغوط قبل نهاية الدفق"
+باستثناء (OSError، EOFError، ValueError) كخطأ:
+باستثناء (OSERror، EOFError):
+قم برفع EOFError إذا تم إغلاق الاتصال.
+إذا لم يكن الخط: ارفع EOFError
+خطأ
+باستثناء EOFEخطأ:
+رفع EOFError("قراءة EOF في مكان غير متوقع")
+رفع EOFError("قراءة EOF في مكان غير متوقع")
+رفع EOFError("قراءة EOF في مكان غير متوقع")
+باستثناء ssl.SSLEOFEخطأ:
+مع self.assertRaises(EOFError):
+باستثناء EOFEخطأ:
+self.assertRaises (EOFError، telnet.read_very_lazy)
+باستثناء EOFEخطأ:
+self.assertRaises(EOFError, gzip.decompress,compressed_data[:-4])
+self.assertRaises(EOFError, gzip.decompress,compressed_data[:-8])
+self.assertRaises (EOFError، f.read)
+self.assertRaises (EOFError، f.read، 1)
+self.assertRaises (EOFError، f.read، 1)
+self.assertRaises (EOFError، conn.recv)
+self.assertRaises(EOFError, conn.recv_bytes)
+باستثناء EOFEخطأ:
+self.assertRaises (EOFError، marshal.loads، data[0: i])
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+PyExc_EOFError
+باستثناء (OSERror، EOFError):
+EOF_ERRORS = (EOFEخطأ،)
+EOF_ERRORS += (ssl.SSLEOFError،)
+truncated_errors = (pickle.UnpicklingError، EOFError،
+truncated_errors = (pickle.UnpicklingError، EOFError،
+خطأ،
+self.check_unpickling_error(EOFError, b'')
+self.check_unpickling_error(EOFError, b'N')
+self.assertRaises((EOFError, struct.error, Pickle.UnpicklingError), self.load, s)
+self.assertRaises(EOFError, unpickler.load)
+self.assertRaises(EOFError, lzd.decompress, b"quux")
+self.assertRaises(EOFError, lzd.decompress, b"nyan")
+self.assertRaises (EOFError، f.read)
+self.assertRaises (EOFError، f.read)
+self.assertRaises (EOFError، f.read، 1)
+self.assertRaises (EOFError، f.read، 1)
+مع self.assertRaises(EOFError):
+self.assertRaises(EOFError, b.fromfile, f, len(self.example)+1)
+# بدلاً من EOFError.
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+# آخر يرفع EOFError.
+# رفع EOFEخطأ.
+# عندما تكون العلامات جزئية، قم بإعادة إنشاء .pyc، وإلا قم برفع EOFError.
+# عندما يكون التجزئة جزئيًا، قم بإعادة إنشاء .pyc، وإلا قم برفع EOFError.
+# رفع EOFEخطأ.
+# عندما لا يكون هناك سوى الرقم السحري والطابع الزمني، قم برفع EOFError.
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+# إذا تم استخدام الرمز الثانوي، فسيتم رفع EOFError بواسطة المارشال.
+# إذا تم استخدام الرمز الثانوي، فسيتم رفع EOFError بواسطة المارشال.
+باستثناء EOFError: تمرير
+باستثناء (EOFError، TypeError، ZeroDivisionError): pass
+باستثناء (EOFError، TypeError، ZeroDivisionError) كرسالة: pass
+باستثناء* EOFEخطأ: تمرير
+باستثناء* (EOFError، TypeError، ZeroDivisionError): pass
+باستثناء* (EOFError، TypeError، ZeroDivisionError) كرسالة: pass
+self.assertRaises (EOFError، f.read)
+self.assertRaises (EOFError، f.read، 1)
+self.assertRaises (EOFError، f.read، 1)
+اختبار ديفEOFError (النفس):
+self.assertRaises(EOFError, bz2d.decompress, b"anything")
+self.assertRaises(EOFError, bz2d.decompress, b"")
+self.raise_catch(EOFError، "EOFError")
+باستثناء EOFEخطأ:
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+مع self.assertRaises(EOFError):
+# يثير بعض buildbot win32 خطأ EOFError إذا تم توريث stdin
+├── EOFEخطأ
+self.assertRaises (ssl.SSLEOFError، sslobj.read)
+باستثناء ssl.SSLEOFEخطأ:
+self.assertRaises(EOFError, getpass._raw_input, input=input)
+("EOFError" في err.reason))) أو
+اختبار ديفEOFError (النفس):
+self.assertRaises(EOFError, zlibd.decompress, b"anything")
+self.assertRaises(EOFError, zlibd.decompress, b"")
+self.infunc.side_effect = EOFError('انتهى')
+self.infunc.side_effect = EOFError('انتهى')
+self.infunc.side_effect = ["'أنطاكية'"، ""، EOFError('انتهى')]
+self.infunc.side_effect = ["غير محدد"، EOFError('تم الانتهاء')]
+EOFError('انتهى')]
+self.infunc.side_effect = EOFError('انتهى')
+self.infunc.side_effect = EOFError('انتهى')
+self.infunc.side_effect = EOFError('انتهى')
+self.infunc.side_effect = EOFError('انتهى')
+self.infunc.side_effect = EOFError('انتهى')
+EOFError('انتهى')]
+EOFError('انتهى')]
+self.assertRaises(EOFError, aifc._read_ulong, f)
+self.assertRaises(EOFError, aifc._read_long, f)
+self.assertRaises(EOFError, aifc._read_ushort, f)
+self.assertRaises(EOFError, aifc._read_short, f)
+باستثناء EOFError: تمرير
+باستثناء (EOFError، TypeError، ZeroDivisionError): pass
+باستثناء (EOFError، TypeError، ZeroDivisionError)، الرسالة: pass
+باستثناء EOFError: تمرير
+باستثناء (EOFError، TypeError، ZeroDivisionError): pass
+باستثناء (EOFError، TypeError، ZeroDivisionError) كرسالة: pass
+self.assertRaises (EOFError، input)
+لـ exctype في OSError، EOFError، RuntimeError:
+self.assertRaises(EOFError, up.unpack_uint)
+خطأ)
+باستثناء (OSERror، EOFError):
+رفع EOFEخطأ
+رفع EOFError من لا شيء
+رفع EOFEخطأ
+باستثناء EOFEخطأ:
+رفع EOFError من لا شيء
+رفع EOFError من لا شيء
+رفع EOFEخطأ
+رفع EOFError من لا شيء
+رفع EOFError("انتهى الملف المضغوط قبل"
+رفع EOFEخطأ
+رفع EOFError('EOF غير متوقع')
+رفع EOFEخطأ
+رفع EOFEخطأ
+باستثناء (EOFError، OSError):
+util.debug("حصل العامل على EOFError أو OSError -- جارٍ الخروج")
+باستثناء (OSERror، EOFError):
+util.debug("حصل معالج النتائج على EOFError/OSError - جارٍ الخروج")
+باستثناء (OSERror، EOFError):
+util.debug("حصل معالج النتائج على EOFError/OSError - جارٍ الخروج")
+باستثناء (OSERror، EOFError):
+باستثناء (OSERror، EOFError):
+باستثناء EOFEخطأ:
+رفع EOFEخطأ
+باستثناء EOFEخطأ:
+عندما يقوم المستخدم بإدخال تسلسل المفاتيح EOF، يتم ظهور EOFError.
+باستثناء (KeyboardInterrupt، EOFError):
+باستثناء (KeyboardInterrupt، EOFError):
+رفع EOFEخطأ
+رفع EOFEخطأ
+رفع EOFEخطأ
+رفع EOFEخطأ
+رفع EOFEخطأ
+all_errors = (خطأ، OSError، EOFError)
+باستثناء (OSERror، EOFError):
+# رفع EOFError إذا كان الاتصال مغلقًا
+رفع EOFEخطأ
+all_errors = (خطأ، OSError، EOFError، ssl.SSLError)
+من الملف، سيفشل إنشاء مثيل جديد بسبب الخطأ EOFError
+باستثناء EOFEخطأ:
+رفع EOFEخطأ
+رفع EOFError من لا شيء
+رفع EOFEخطأ
+باستثناء EOFEخطأ:
+أكلت البيانات. ولهذا السبب تكون هناك حاجة إلى EOFError في بعض الحالات للتمييز
+رفع EOFEخطأ عند قراءة نهاية الاتصال، لأن
+ربما السلسلة الفارغة. ارفع EOFEخطأ في حالة الاتصال
+قم برفع EOFError إذا تم إغلاق الاتصال وعدم وجود بيانات مطبوخة
+قم برفع EOFError إذا تم إغلاق الاتصال وعدم وجود بيانات مطبوخة
+قم برفع EOFError إذا تم إغلاق الاتصال وعدم توفر بيانات.
+قم برفع EOFError إذا تم إغلاق الاتصال وعدم توفر بيانات.
+رفع EOFError("اتصال telnet مغلق")
+باستثناء EOFError: # مرفوع بواسطة self.rawq_getchar()
+قم بالحظر في حالة عدم توفر أي بيانات على الفور. رفع EOFEخطأ
+رفع EOFEخطأ
+باستثناء EOFEخطأ:
+باستثناء EOFEخطأ:
+إذا تمت قراءة EOF ولم تتم قراءة أي نص، قم برفع EOFError.
+رفع EOFEخطأ
+EOFError: إذا تم إغلاق الإدخال tty أو stdin الخاص بنا.
+رفع EOFEخطأ
+(على سبيل المثال لا الحصر) AttributeError، وEOFError، وImportError،
+رفع EOFEخطأ
+رفع EOFEخطأ
+باستثناء (OSERror، EOFError) كـ e:
+باستثناء (LZMAError، EOFError) كـ e:
+الحقل غير صالح. يتم ظهور EOFError عندما يتم العثور على البيانات مقطوعة.
+رفع EOFError (رسالة)
+باستثناء (ImportError، EOFError):
+تجاوز الفئة الأساسية - ما عليك سوى إعادة رفع EOFError
+رفع EOFEخطأ
+باستثناء (EOFError، OSError، KeyboardInterrupt):
+باستثناء EOFEخطأ:
+رفع EOFEخطأ
+لا يأتي أبدًا، واخرج من EOFError.
+باستثناء EOFEخطأ:
+رفع EOFEخطأ
+رفع EOFEخطأ
+باستثناء EOFEخطأ:
+رفع EOFEخطأ
+باستثناء EOFEخطأ:
+SSLSyscallError، SSLEOFError، SSLCertVerificationError
+فئة IncompleteReadError(EOFError):
+رفع EOFError من لا شيء
+رفع EOFError من لا شيء
+رفع EOFError من لا شيء
+رفع EOFError من لا شيء
+باستثناء EOFEخطأ:
+باستثناء EOFEخطأ:
+"EOFError"، "Ellipsis"، "EnvironmentError"، "Exception"، "False"،
+يثير :exc:`EOFError`. أي بيانات يتم العثور عليها بعد نهاية
+قراءة، يتم رفع :exc:`EOFError`. مثال::
+هذا الاستثناء هو فئة فرعية من :exc:`EOFError`.
+التنسيق)، ارفع :exc:`EOFError`، :exc:`ValueError` أو :exc:`TypeError`. ال
+:exc:`EOFError`، :exc:`ValueError` أو :exc:`TypeError`. بايتات اضافية في
+خط جديد. عندما يقوم المستخدم بإدخال تسلسل المفاتيح EOF، يتم رفع :exc:`EOFError`.
+(على سبيل المثال لا الحصر) AttributeError، وEOFError، وImportError، و
+باستثناء EOFEخطأ:
+تم رفع :exc:`EOFError`، ولكن العناصر التي كانت متاحة لا تزال موجودة
+سيفشل المثيل مع استثناء :exc:`EOFError`.
+:exc:`EOFError` عند قراءة نهاية الاتصال، لأنه يمكنهم العودة
+بايت. ارفع :exc:`EOFError` إذا كان الاتصال مغلقًا ولا توجد بيانات مطبوخة
+ارفع :exc:`EOFError` إذا تم إغلاق الاتصال وعدم توفر بيانات مطبوخة.
+ارفع :exc:`EOFError` إذا تم إغلاق الاتصال وعدم توفر بيانات مطبوخة.
+ارفع :exc:`EOFError` إذا تم إغلاق الاتصال وعدم توفر بيانات. يعود
+ارفع :exc:`EOFError` إذا تم إغلاق الاتصال وعدم توفر بيانات. يعود
+إذا تم العثور على نهاية الملف ولم تتم قراءة أي وحدات بايت، فارفع :exc:`EOFError`.
+يمكن أيضًا رفع :exc:`EOFError` و :exc:`zlib.error` لـ gzip غير الصالح
+أربعة استثناءات مذكورة أعلاه بالإضافة إلى :exc:`OSError` و :exc:`EOFError`.
+.. استثناء:: SSLEOFError
+:exc:`SSLEOFError` استثناء.
+:exc:`EOFError` إذا لم يبق شيء لتلقيه
+يُرفع :exc:`EOFError` إذا لم يبق شيء
+:exc:`EOFError` إذا لم يبق شيء لتلقيه وكان الطرف الآخر
+باستثناء EOFEخطأ:
+يثير :exc:`EOFError`. أي بيانات يتم العثور عليها بعد نهاية
+.. استثناء:: EOFError
+فإنه يثير :exc:`EOFError` إذا تم إنهاء الإدخال قبل الأوان.
+فار،PyExc_EOFError،3.2،،
+في حالة حدوث خطأ، يقوم بتعيين الاستثناء المناسب (:exc:`EOFError`) وإرجاعه
+في حالة حدوث خطأ، يقوم بتعيين الاستثناء المناسب (:exc:`EOFError`) وإرجاعه
+في حالة وجود خطأ، قم بتعيين الاستثناء المناسب (:exc:`EOFError`, :exc:`ValueError`
+في حالة وجود خطأ، قم بتعيين الاستثناء المناسب (:exc:`EOFError`, :exc:`ValueError`
+في حالة وجود خطأ، قم بتعيين الاستثناء المناسب (:exc:`EOFError`, :exc:`ValueError`
+.. الفهرس:: مفرد: EOFError (استثناء مدمج)
+``0``، ومع ذلك، تتم قراءة سطر واحد بغض النظر عن طوله، ولكن :exc:`EOFError` هو
+واحد: PyExc_EOFError
+| :c:data:`PyExc_EOFError` | :exc:`EOFError` | |
+PyErr_SetString(PyExc_EOFError،
+خطأ. يتم تجاهل أي بيانات يتم العثور عليها بعد نهاية الدفق وحفظها
+PyErr_SetString(PyExc_EOFError، "بالفعل في نهاية الدفق");
+PyErr_Format(PyExc_EOFError، "نفاد الإدخال");
+خطأ. يتم تجاهل أي بيانات يتم العثور عليها بعد نهاية الدفق وحفظها
+PyErr_SetString(PyExc_EOFError، "تم الوصول بالفعل إلى نهاية الدفق");
+PyDoc_STRVAR(SSLEOFError_doc،
+type =state->PySSLEOFErrorObject;
+type =state->PySSLEOFErrorObject;
+type =state->PySSLEOFErrorObject;
+الحالة->PySSLEOFErrorObject،
+خطأ
+SSLEOFError_doc،
+Py_VISIT(state->PySSLEOFErrorObject);
+Py_CLEAR(state->PySSLEOFErrorObject);
+PyErr_SetString(PyExc_EOFError،
+خطأ. يتم تجاهل أي بيانات يتم العثور عليها بعد نهاية الدفق وحفظها
+PyErr_SetString(PyExc_EOFError، "تم الوصول بالفعل إلى نهاية الدفق");
+خطأ. يتم تجاهل أية بيانات يتم العثور عليها بعد نهاية الدفق وحفظها في\n
+خطأ. يتم تجاهل أية بيانات يتم العثور عليها بعد نهاية الدفق وحفظها في\n
+خطأ. يتم تجاهل أية بيانات يتم العثور عليها بعد نهاية الدفق وحفظها في\n
+PyObject *PySSLEOFErrorObject;
+* استثناءات استثناء XXX. خطأ الاستيراد: "لا توجد وحدة باسم sha"
+# خطأ الاستيراد: إذا لم يكن اسم الحزمة موجودًا (على سبيل المثال، إذا لم يكن tzdata موجودًا
+باستثناء خطأ الاستيراد: # pragma: nocover
+- ZipImportError: استثناء مرفوع بواسطة كائنات zipimporter. انه
+self.assertIn("ImportError: لا توجد وحدة باسم t_main.__main__"،
+باستثناء خطأ الاستيراد: # pragma: لا يوجد غطاء
+النص = "خطأ الاستيراد:" + str(exc)
+f'ImportError: الوحدة {name} لا تدعم التحميل في المترجمين الفرعيين،
+f'ImportError: الوحدة {name} لا تدعم التحميل في المترجمين الفرعيين،
+باستثناء ImportError: # في حالة عدم وجود وحدة pwd
+باستثناء خطأ الاستيراد: # تعليق\n
+باستثناء خطأ الاستيراد: # pragma: لا يوجد غطاء
+f'خطأ الاستيراد: 5\n')
+self.msgout(4، "رفع خطأ الاستيراد: لا توجد وحدة مسماة"، qname)
+self.msgout(4، "رفع خطأ الاستيراد: لا توجد وحدة مسماة"، mname)
+self.msgout(2، "رفع خطأ الاستيراد:" + str(exc)، اسم المسار)
+باستثناء ImportError: # لا يعمل على نظام التشغيل Windows - يسخر من شيء معقول
+باستثناء خطأ الاستيراد: # pragma: لا يوجد غطاء
+باستثناء خطأ الاستيراد: # pragma: لا يوجد غطاء
+باستثناء خطأ الاستيراد: # pragma: لا يوجد غطاء
+خطأ الاستيراد: لا يمكن استيراد اسم "chainmap" من "المجموعات". هل تقصد: 'ChainMap'؟
+IndentationError: من المتوقع حدوث كتلة ذات مسافة بادئة بعد عبارة "while" في السطر 1
+IndentationError: من المتوقع حدوث كتلة ذات مسافة بادئة بعد عبارة "for" في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "else" في السطر 3
+IndentationError: من المتوقع حدوث كتلة ذات مسافة بادئة بعد عبارة "for" في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "else" في السطر 3
+IndentationError: توقع كتلة ذات مسافة بادئة بعد عبارة "if" في السطر 1
+IndentationError: من المتوقع حدوث كتلة ذات مسافة بادئة بعد عبارة "elif" في السطر 3
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "else" في السطر 5
+IndentationError: من المتوقع حدوث كتلة ذات مسافة بادئة بعد عبارة "try" في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "باستثناء" في السطر 3
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "باستثناء" في السطر 3
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "باستثناء*" في السطر 3
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "أخيرًا" في السطر 5
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "أخيرًا" في السطر 5
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "with" في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "with" في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "with" في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "with" في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "with" في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "with" في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد تعريف الوظيفة في السطر 1
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد تعريف الفئة في السطر 1
+IndentationError: من المتوقع حدوث كتلة ذات مسافة بادئة بعد عبارة "match" في السطر 1
+IndentationError: من المتوقع حدوث كتلة ذات مسافة بادئة بعد عبارة "الحالة" في السطر 2
+IndentationError: من المتوقع حدوث كتلة ذات مسافة بادئة بعد عبارة "الحالة" في السطر 4
+IndentationError: من المتوقع وجود كتلة ذات مسافة بادئة بعد عبارة "if" في السطر 2
+>>> exc_msg = 'خطأ الفهرس: انبثق من قائمة فارغة'
+('[].pop()\n', '', 'IndexError: انبثاق من قائمة فارغة\n', 5, 4, {8: True})
+>>> exc_msg = 'خطأ الفهرس: انبثق من قائمة فارغة'
+'خطأ الفهرس: انبثق من قائمة فارغة\n'
+>>> exc_msg = 'خطأ الفهرس: انبثق من قائمة فارغة\n'
+'خطأ الفهرس: انبثق من قائمة فارغة\n'
+خطأ الفهرس: انبثاق من قائمة فارغة
+خطأ الفهرس: فهرس السلسلة خارج النطاق
+خطأ الفهرس: فهرس المجموعة خارج النطاق
+خطأ الفهرس: فهرس المجموعة خارج النطاق
+خطأ الفهرس: فهرس المجموعة خارج النطاق
+'خطأ الفهرس: فهرس المجموعة خارج النطاق\n']
+['خطأ الفهرس: فهرس المجموعة خارج النطاق\n']
+خطأ الفهرس: قائمة الفهرس خارج النطاق
+خطأ الفهرس: فهرس غير صالح
+خطأ الفهرس: انبثاق من قائمة فارغة
+Shutdown_error = "LookupError: ترميز غير معروف: ascii"
+Shutdown_error = "LookupError: ترميز غير معروف: ascii"
+# LookupError: لم يتم تسجيل أي وظائف بحث عن برنامج الترميز: لا يمكن العثور على التشفير"
+باستثناء LookupError: # لا يوجد IncrementalEncoder
+باستثناء LookupError: # لا يوجد IncrementalEncoder
+باستثناء LookupError: # لا يوجد IncrementalEncoder
+باستثناء LookupError: # لا يوجد IncrementalEncoder
+LookupError: 'hex' ليس ترميز نص؛ استخدم codecs.decode() للتعامل مع برامج الترميز العشوائية
+LookupError: 'rot13' ليس ترميزًا للنص؛ استخدم codecs.encode() للتعامل مع برامج الترميز العشوائية
+LookupError: 'hex' ليس ترميز نص؛ استخدم codecs.open() للتعامل مع برامج الترميز العشوائية
+وضع اللمسات الأخيرة. أصلح أخطاء مثل: ``NameError: الاسم 'open' غير محدد``.
+- المشكلة رقم 17032: "العام" في "خطأ في الاسم: الاسم العام 'x' غير محدد"
+باستثناء NameError: pass
+self.assertNotIn(b"NameError: الاسم "غير صالح" غير محدد"،
+((Pdb)) *** خطأ في الاسم: لم يتم تعريف الاسم "غير موجود".
+باستثناء NameError: pass
+باستثناء NameError: pass
+*** خطأ في الاسم: لم يتم تعريف الاسم "foo".
+خطأ في الاسم: لم يتم تعريف الاسم "اللون_المفضل".
+خطأ في الاسم: لم يتم تعريف الاسم "اللون_المفضل".
+خطأ في الاسم: لم يتم تعريف الاسم "اللون_المفضل".
+خطأ في الاسم: لم يتم تعريف الاسم "لحم الخنزير".
+خطأ في الاسم: لم يتم تعريف اسم "البيض".
+# يؤدي إلى "خطأ في الاسم: لم يتم تعريف بيانات الاسم"
+باستثناء NameError: # في حالة بدء python بـ -S.
+باستثناء NameError: # في حالة بدء العملية الفرعية بـ -S (ربما في المستقبل).
+خطأ في الاسم: 'بريد عشوائي'\n
+' خطأ في الاسم: بريد عشوائي\n'
+خطأ في الاسم: لم يتم تعريف اسم "البريد العشوائي".
+خطأ في الاسم: مرحبًا هناك
+خطأ في الاسم: مرحبًا هناك
+خطأ في الاسم: لم يتم تعريف الاسم 'n'
+خطأ في الاسم: لم يتم تعريف اسم "الخلية".
+خطأ في الاسم: "بريد عشوائي"
+خطأ في الاسم: بريد عشوائي
+خطأ في الاسم: لم يتم تعريف الاسم "sys". هل نسيت استيراد "sys"؟
+خطأ في الاسم: لم يتم تعريف الاسم "blech". هل تقصد: 'self.blech'؟
+خطأ في الاسم: لم يتم تعريف الاسم "schwarschild_black_hole". هل تقصد: schwarzschild_black_hole؟
+NotImplementedError: نوع الرمز غير مدعوم بعد في برامج Python النصية.
+@unittest.skip('xxxxNotImplementedError: toList() يدعم طرق عرض البايت فقط')
+NotImplementedError: لا يمكن إنشاء مثيل لـ "WindowsPath" على نظامك
+# OSError: [Errno 28] وسيطة غير صالحة: '.'
+باستثناء خطأ OSE: # على سبيل المثال. سيئة للتنفيذ
+باستثناء خطأ OSE: # على سبيل المثال. القيادة لم يتم العثور
+باستثناء خطأ OSE: # على سبيل المثال. سيئة للتنفيذ
+باستثناء خطأ OSE: # على سبيل المثال. القيادة لم يتم العثور
+باستثناء خطأ OSE: # على سبيل المثال. سيئة للتنفيذ
+باستثناء OSError: # استخدم اسم الخطأ هذا هذه المرة
+# فشل getlogin() مع "OSError: [Errno 25] ioctl غير مناسب"
+باستثناء خطأ OSError: قد لا يكون # syslogd متاحًا
+# "OSError: [Errno 12] لا يمكن تخصيص الذاكرة"
+# مع "OSError: [Errno 12] لا يمكن تخصيص الذاكرة"
+'تم تجاهل الاستثناء في.*\nOSERror: .*')
+self.fail("خطأ نظام التشغيل المتوقع: struct.pack(%r, "
+self.fail ("خطأ نظام التشغيل المتوقع: %s" % Destination_exception)
+self.fail ("خطأ نظام التشغيل المتوقع: %s" % Destination_exception)
+self.fail ("خطأ نظام التشغيل المتوقع: %s" % Destination_exception)
+self.assertIn(b'OSError: كود المصدر غير متوفر'، stderr)
+إذا لم يكن ('OSError: [Errno %d]' % errno.EBADF) على خطأ:
+self.assertIn(b'OSError: تم تجاهل الإشارة 2 بسبب حالة السباق'، خطأ)
+باستثناء OSError: # افتراض EIO
+# OSError: [Errno 9] واصف الملف غير صالح
+# هذا لا ينبغي أن يؤدي إلى ظهور خطأ OSError: [Errno 17] الملف موجود
+باستثناء خطأ OS: # Linux
+باستثناء OSError: تمرير
+# OSError: [Errno 38] لم يتم تنفيذ الوظيفة
+طباعة ("IDLE Subprocess: OSError:" + err.args[1] +
+باستثناء خطأ OSE: #pragma: لا يوجد غطاء
+باستثناء خطأ OSE: #pragma: لا يوجد غطاء
+| خطأ OS: خطأ 1
+| خطأ OSE: فشلت العملية
+| خطأ OSE: فشلت العملية
+| خطأ OSE: فشلت العملية
+خطأ OSE: [Errno 98] العنوان قيد الاستخدام بالفعل
+OSError: [Errno 9] واصف ملف غير صالح
+خطأ OSError: استثناء: انتهاك الوصول إلى القراءة 0x00000020
+OSError: [Errno 126] تعذر العثور على الوحدة النمطية المحددة.
+# خطأ تجاوز: _unsafe_setprec، _unsafe_setemin، _unsafe_setemax
+OverflowError: لا يمكن تقريب ما لا نهاية
+خطأ السعة: n كبير جدًا
+خطأ السعة: n كبير جدًا
+:mod:`asyncio` لم يعد يلقي ``RuntimeError: تم إغلاق حلقة الحدث``
+تجنب احتمال حدوث *"خطأ في وقت التشغيل: تم تغيير حجم القاموس أثناء التكرار"*
+تجنب احتمال حدوث *"خطأ في وقت التشغيل: تم تغيير حجم القاموس أثناء التكرار"*
+بدلاً من RuntimeError: يحتوي OSError على سمة errno.
+# خطأ في وقت التشغيل: ألا يمكنك حتى قراءة الكائن على الإطلاق؟
+# خطأ وقت التشغيل: مؤشرات فارغة
+# خطأ في وقت التشغيل: تم تغيير حجم القاموس أثناء التكرار
+msg = '\nخطأ في وقت التشغيل: خطأ متعمد\n'
+self.assertTrue(r.exc_text.endswith('\nRuntimeError:'
+self.assertIn("RuntimeError: لا يمكن تسجيل الخروج بعد إيقاف التشغيل"،
+باستثناء RuntimeError: pass
+خطأ في وقت التشغيل: تجاهل المولد GeneratorExit
+خطأ في وقت التشغيل: تم تغيير حجم القاموس أثناء التكرار
+خطأ في وقت التشغيل: تم تغيير حجم القاموس أثناء التكرار
+self.assertIn("RuntimeError: لا يمكن جدولة العقود الآجلة الجديدة"، err.decode())
+باستثناء RuntimeError: pass
+باستثناء RuntimeError: pass
+باستثناء RuntimeError: # تم تعريف التنفيذ
+باستثناء RuntimeError: # تم تعريف التنفيذ
+err_msg = "خطأ وقت التشغيل: {0}".format(message_ascii)
+خطأ في وقت التشغيل: إذا تم استدعاء هذه الطريقة بالفعل أو إذا كان set_result()
+' خطأ في وقت التشغيل: حدث شيء سيء\n'
+' خطأ في وقت التشغيل: حدث شيء سيء\n'
+' خطأ في وقت التشغيل: حدث شيء سيء\n'
+RuntimeError: غير قادر على معالجة الخطأ
+خطأ وقت التشغيل: فشل في فتح قاعدة البيانات
+خطأ في وقت التشغيل: لم ينتج المولد
+بدلاً من RuntimeError: يحتوي OSError على سمة errno.
+خطأ في وقت التشغيل: قام المولد برفع StopIteration
+خطأ في وقت التشغيل: تم تغيير حجم القاموس أثناء التكرار
+خطأ وقت التشغيل: حدث شيء سيء
+خطأ وقت التشغيل: حدث شيء سيء
+خطأ وقت التشغيل: حدث شيء سيء
+توقف التكرار: 1
+توقف التكرار: 1
+تكرار الإيقاف الداخلي: 1
+تكرار الإيقاف الداخلي: 1
+لاحظ أن الإرجاع لا يعادل دائمًا رفع StopIteration: the
+... باستثناء StopIteration: pass
+إيقاف التكرار:
+StopIteration: البريد العشوائي
+StopIteration: البريد العشوائي
+خطأ في بناء الجملة: متوقع '('
+يمكن أن تفشل الأحرف غير ascii في اسمها بسبب خطأ "SyntaxError: لا شيء".
+تؤدي التعليمة البرمجية التالية الآن إلى ظهور خطأ SyntaxError: foo(a = i for i in range(10))
+errprint("%s: خطأ في بناء الجملة: %s" % (ملف، str(se)))
+خطأ في بناء الجملة: ...
+خطأ في بناء الجملة: ...
+b'SyntaxError: f-string: التعبير الفارغ غير مسموح به'،
+b'SyntaxError: تسلسل هروب غير صالح \'\\q\''
+b'SyntaxError: كود المصدر لا يمكن أن يحتوي على بايتات فارغة'
+self.assertTrue(f"SyntaxError: بناء جملة غير صالح" في السل)
+غير قادر على عرض +: ** خطأ SyntaxError: بناء جملة غير صالح **
+'(Pdb) *** خطأ في بناء الجملة: \'(\' لم يتم إغلاقه مطلقًا',
+'*** خطأ في بناء الجملة: \'(\' لم يتم إغلاقه مطلقًا',
+SyntaxError: الاسم 'x' هو معلمة وعامة
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في SyntaxError: لا يمكن التعيين إلى لا شيء
+خطأ قواعدي: بناء جملة غير صالح
+خطأ SyntaxError: لا يمكن تعيينه إلى True
+خطأ SyntaxError: لا يمكن استخدام تعبيرات المهمة مع True
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في بناء الجملة: لا يمكن حذف __debug__
+خطأ SyntaxError: لا يمكن تعيين استدعاء الوظيفة هنا. ربما كنت تقصد "==" بدلاً من "="؟
+SyntaxError: التعيين لإنتاج التعبير غير ممكن
+خطأ في SyntaxError: لا يمكن حذف استدعاء الوظيفة
+SyntaxError: لا يمكن تعيين التعبير هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ SyntaxError: لا يمكن تعيين تعبير المولد
+خطأ في SyntaxError: لا يمكن تعيينه إلى الحرفي هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ في SyntaxError: لا يمكن تعيينه إلى الحرفي هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ في SyntaxError: لا يمكن تعيينه إلى الحرفي هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ في SyntaxError: لا يمكن تعيين علامة الحذف هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في SyntaxError: لا يمكن التعيين إلى الحرفي
+خطأ SyntaxError: لا يمكن تعيينه إلى True
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ SyntaxError: لا يمكن تعيينه إلى True
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في SyntaxError: لا يمكن تعيينه للتعبير
+خطأ في SyntaxError: لا يمكن تعيينه للتعبير
+خطأ في SyntaxError: لا يمكن تعيينه للتعبير
+خطأ في SyntaxError: لا يمكن تعيينه للتعبير الشرطي
+SyntaxError: من المتوقع "آخر" بعد التعبير "if".
+SyntaxError: من المتوقع "آخر" بعد التعبير "if".
+SyntaxError: من المتوقع "آخر" بعد التعبير "if".
+خطأ قواعدي: بناء جملة غير صالح
+خطأ SyntaxError: لا يمكن تعيينه إلى True
+خطأ SyntaxError: لا يمكن تعيينه إلى True
+SyntaxError: التعيين لإنتاج التعبير غير ممكن
+SyntaxError: 'tuple' هو تعبير غير قانوني للمهمة المعززة
+SyntaxError: 'tuple' هو تعبير غير قانوني للمهمة المعززة
+SyntaxError: 'list' هو تعبير غير قانوني للمهمة المعززة
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في SyntaxError: لا يمكن تعيينه للتعبير
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في SyntaxError: لا يمكن تعيينه للتعبير
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في SyntaxError: لا يمكن تعيينه للتعبير
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في SyntaxError: لا يمكن تعيينه لاستدعاء الوظيفة
+خطأ في بناء الجملة: متوقع ':'
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في SyntaxError: هل نسيت الأقواس حول هدف الفهم؟
+خطأ في SyntaxError: هل نسيت الأقواس حول هدف الفهم؟
+خطأ قواعدي: بناء جملة غير صالح. ربما نسيت الفاصلة؟
+خطأ قواعدي: بناء جملة غير صالح. ربما نسيت الفاصلة؟
+خطأ قواعدي: بناء جملة غير صالح. ربما نسيت الفاصلة؟
+خطأ قواعدي: بناء جملة غير صالح. ربما نسيت الفاصلة؟
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+SyntaxError: المعلمة بدون افتراضية تتبع المعلمة الافتراضية
+SyntaxError: المعلمة بدون افتراضية تتبع المعلمة الافتراضية
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في SyntaxError: يجب أن تسبق وسيطة واحدة على الأقل /
+خطأ SyntaxError: / قد يظهر مرة واحدة فقط
+خطأ SyntaxError: / قد يظهر مرة واحدة فقط
+خطأ SyntaxError: / قد يظهر مرة واحدة فقط
+خطأ SyntaxError: / قد يظهر مرة واحدة فقط
+خطأ في بناء الجملة: / يجب أن يكون متقدمًا على *
+خطأ في بناء الجملة: / يجب أن يكون متقدمًا على *
+خطأ SyntaxError: لا يمكن أن تحتوي الوسيطة var-positional على قيمة افتراضية
+خطأ SyntaxError: لا يمكن أن تحتوي الوسيطة var-positional على قيمة افتراضية
+خطأ SyntaxError: لا يمكن أن تحتوي وسيطة var-keyword على قيمة افتراضية
+خطأ SyntaxError: لا يمكن أن تحتوي وسيطة var-keyword على قيمة افتراضية
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: * قد تظهر الوسيطة مرة واحدة فقط
+خطأ SyntaxError: * قد تظهر الوسيطة مرة واحدة فقط
+خطأ SyntaxError: * قد تظهر الوسيطة مرة واحدة فقط
+خطأ SyntaxError: * قد تظهر الوسيطة مرة واحدة فقط
+خطأ في بناء الجملة: الفاصلة المتوقعة بين / و *
+SyntaxError: تعبير القيمة الافتراضية المتوقعة
+SyntaxError: تعبير القيمة الافتراضية المتوقعة
+SyntaxError: تعبير القيمة الافتراضية المتوقعة
+خطأ في SyntaxError: يجب أن تسبق وسيطة واحدة على الأقل /
+خطأ SyntaxError: / قد يظهر مرة واحدة فقط
+خطأ SyntaxError: / قد يظهر مرة واحدة فقط
+خطأ SyntaxError: / قد يظهر مرة واحدة فقط
+خطأ SyntaxError: / قد يظهر مرة واحدة فقط
+خطأ في بناء الجملة: / يجب أن يكون متقدمًا على *
+خطأ في بناء الجملة: / يجب أن يكون متقدمًا على *
+خطأ في بناء الجملة: الفاصلة المتوقعة بين / و *
+خطأ SyntaxError: لا يمكن أن تحتوي الوسيطة var-positional على قيمة افتراضية
+خطأ SyntaxError: لا يمكن أن تحتوي وسيطة var-keyword على قيمة افتراضية
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: لا يمكن للوسائط أن تتبع وسيطة الكلمة الأساسية var
+خطأ SyntaxError: * قد تظهر الوسيطة مرة واحدة فقط
+خطأ SyntaxError: * قد تظهر الوسيطة مرة واحدة فقط
+خطأ SyntaxError: * قد تظهر الوسيطة مرة واحدة فقط
+خطأ SyntaxError: * قد تظهر الوسيطة مرة واحدة فقط
+SyntaxError: تعبير القيمة الافتراضية المتوقعة
+SyntaxError: تعبير القيمة الافتراضية المتوقعة
+SyntaxError: المعلمة بدون افتراضية تتبع المعلمة الافتراضية
+SyntaxError: المعلمة بدون افتراضية تتبع المعلمة الافتراضية
+SyntaxError: bare * له نوع تعليق مرتبط
+خطأ قواعدي: بناء جملة غير صالح
+SyntaxError: يجب أن يكون تعبير المولد بين قوسين
+SyntaxError: يجب أن يكون تعبير المولد بين قوسين
+SyntaxError: يجب أن يكون تعبير المولد بين قوسين
+SyntaxError: يجب أن يكون تعبير المولد بين قوسين
+SyntaxError: يجب أن يكون تعبير المولد بين قوسين
+SyntaxError: يجب أن يكون تعبير المولد بين قوسين
+SyntaxError: يجب أن يكون تعبير المولد بين قوسين
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في SyntaxError: لا يمكن أن يحتوي التعبير على مهمة، ربما كنت تقصد "=="؟
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في SyntaxError: لا يمكن أن يحتوي التعبير على مهمة، ربما كنت تقصد "=="؟
+خطأ في SyntaxError: لا يمكن أن يحتوي التعبير على مهمة، ربما كنت تقصد "=="؟
+خطأ في SyntaxError: لا يمكن أن يحتوي التعبير على مهمة، ربما كنت تقصد "=="؟
+خطأ في SyntaxError: لا يمكن أن يحتوي التعبير على مهمة، ربما كنت تقصد "=="؟
+خطأ SyntaxError: لا يمكن تعيينه إلى True
+خطأ في SyntaxError: لا يمكن تعيينه إلى False
+خطأ في SyntaxError: لا يمكن التعيين إلى لا شيء
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+SyntaxError: تعبير قيمة الوسيطة المتوقعة
+SyntaxError: تعبير قيمة الوسيطة المتوقعة
+SyntaxError: تعبير قيمة الوسيطة المتوقعة
+خطأ SyntaxError: لا يمكن تعيينه لتفريغ الوسيطة القابلة للتكرار
+خطأ SyntaxError: لا يمكن تعيينه لتفريغ الوسيطة القابلة للتكرار
+خطأ SyntaxError: لا يمكن تعيينه لتفريغ وسيطة الكلمة الرئيسية
+خطأ SyntaxError: لا يمكن تعيينه لتفريغ وسيطة الكلمة الرئيسية
+SyntaxError: "تعبير المولد" هو تعبير غير قانوني للمهمة المعززة
+SyntaxError: "لا شيء" هو تعبير غير قانوني للمهمة المعززة
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+SyntaxError: "استدعاء الوظيفة" هو تعبير غير قانوني للمهمة المعززة
+خطأ في SyntaxError: "المتابعة" غير موجودة بشكل صحيح في الحلقة
+خطأ في SyntaxError: "كسر" الحلقة الخارجية
+خطأ في SyntaxError: يتم استخدام الاسم 'x' قبل الإعلان العام
+SyntaxError: تم تعيين الاسم 'x' قبل الإعلان العالمي
+SyntaxError: الاسم 'x' هو معلمة وعامة
+SyntaxError: يتم استخدام الاسم 'x' قبل الإعلان غير المحلي
+SyntaxError: يتم تعيين الاسم 'x' قبل الإعلان غير المحلي
+خطأ في SyntaxError: الاسم 'x' هو معلمة وغير محلية
+خطأ في بناء الجملة: الاسم 'x' غير محلي وعام
+خطأ في بناء الجملة: لم يتم العثور على رابط لـ "x" غير محلي
+خطأ SyntaxError: الإعلان غير المحلي غير مسموح به على مستوى الوحدة النمطية
+خطأ في بناء الجملة: لم يتم العثور على رابط لـ "_A__x" غير محلي
+خطأ SyntaxError: لا يمكن تعيين استدعاء الوظيفة هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ SyntaxError: لا يمكن تعيين استدعاء الوظيفة هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ SyntaxError: لا يمكن تعيين استدعاء الوظيفة هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ SyntaxError: لا يمكن تعيين استدعاء الوظيفة هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ SyntaxError: لا يمكن تعيين استدعاء الوظيفة هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في بناء الجملة: متوقع ':'
+خطأ في بناء الجملة: متوقع ':'
+خطأ قواعدي: بناء جملة غير صالح. ربما كنت تقصد "==" أو ":=" بدلاً من "="؟
+خطأ قواعدي: بناء جملة غير صالح. ربما كنت تقصد "==" أو ":=" بدلاً من "="؟
+خطأ في SyntaxError: لا يمكن تعيين السمة هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ في SyntaxError: لا يمكن تعيين السمة هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ في بناء الجملة: متوقع '('
+خطأ في بناء الجملة: متوقع '('
+SyntaxError: لا يمكن وضع قوسين بين معلمات الدالة
+SyntaxError: لا يمكن وضع قوسين بين معلمات الدالة
+SyntaxError: لا يمكن وضع قوسين بين معلمات الدالة
+SyntaxError: لا يمكن وضع قوسين بين معلمات الدالة
+خطأ في SyntaxError: لا يمكن وضع قوسين لمعلمات تعبير Lambda
+خطأ في SyntaxError: لا يمكن وضع قوسين لمعلمات تعبير Lambda
+خطأ في SyntaxError: لا يمكن وضع قوسين لمعلمات تعبير Lambda
+خطأ في SyntaxError: لا يمكن وضع قوسين لمعلمات تعبير Lambda
+SyntaxError: الكتلة "باستثناء" أو "أخيرًا" المتوقعة
+SyntaxError: لا يمكن أن يكون هناك "باستثناء" و"باستثناء*" في نفس "المحاولة"
+SyntaxError: لا يمكن أن يكون هناك "باستثناء" و"باستثناء*" في نفس "المحاولة"
+SyntaxError: لا يمكن أن يكون هناك "باستثناء" و"باستثناء*" في نفس "المحاولة"
+SyntaxError: لا يمكن أن يكون هناك "باستثناء" و"باستثناء*" في نفس "المحاولة"
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ SyntaxError: ':' متوقع بعد مفتاح القاموس
+SyntaxError: التعبير المتوقع بعد مفتاح القاموس و':'
+SyntaxError: لا يمكن استخدام التعبير المميز بنجمة في قيمة القاموس
+SyntaxError: لا يمكن استخدام التعبير المميز بنجمة في قيمة القاموس
+SyntaxError: لا يمكن استخدام التعبير المميز بنجمة في قيمة القاموس
+SyntaxError: التعبير المتوقع بعد مفتاح القاموس و':'
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+SyntaxError: يجب وضع قوسين بين أنواع الاستثناءات المتعددة
+SyntaxError: يجب وضع قوسين بين أنواع الاستثناءات المتعددة
+SyntaxError: يجب وضع قوسين بين أنواع الاستثناءات المتعددة
+SyntaxError: يجب وضع قوسين بين أنواع الاستثناءات المتعددة
+SyntaxError: يجب وضع قوسين بين أنواع الاستثناءات المتعددة
+SyntaxError: يجب وضع قوسين بين أنواع الاستثناءات المتعددة
+SyntaxError: يجب وضع قوسين بين أنواع الاستثناءات المتعددة
+SyntaxError: يجب وضع قوسين بين أنواع الاستثناءات المتعددة
+خطأ SyntaxError: نوع الاستثناء المتوقع واحد أو أكثر
+خطأ في SyntaxError: تكرار وسيطة الكلمة الأساسية: أ
+خطأ SyntaxError: لا يمكن تعيين العرض هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ في SyntaxError: لا يمكن تعيينه للإملاء الحرفي هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ SyntaxError: لا يمكن تعيين تعبير السلسلة f هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ SyntaxError: لا يمكن تعيين تعبير السلسلة f هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ قواعدي: بناء جملة غير صالح. ربما كنت تقصد "==" أو ":=" بدلاً من "="؟
+خطأ قواعدي: بناء جملة غير صالح. ربما كنت تقصد "==" أو ":=" بدلاً من "="؟
+خطأ قواعدي: بناء جملة غير صالح. ربما كنت تقصد "==" أو ":=" بدلاً من "="؟
+خطأ قواعدي: بناء جملة غير صالح. ربما كنت تقصد "==" أو ":=" بدلاً من "="؟
+خطأ قواعدي: بناء جملة غير صالح. ربما كنت تقصد "==" أو ":=" بدلاً من "="؟
+SyntaxError: غير مسموح بالفاصلة الزائدة بدون الأقواس المحيطة
+SyntaxError: غير مسموح بالفاصلة الزائدة بدون الأقواس المحيطة
+خطأ في SyntaxError: هل تقصد استخدام "من ... استيراد ..." بدلاً من ذلك؟
+خطأ في SyntaxError: هل تقصد استخدام "من ... استيراد ..." بدلاً من ذلك؟
+خطأ في SyntaxError: هل تقصد استخدام "من ... استيراد ..." بدلاً من ذلك؟
+خطأ في SyntaxError: هل تقصد استخدام "من ... استيراد ..." بدلاً من ذلك؟
+خطأ قواعدي: بناء جملة غير صالح
+SyntaxError: يمكن إضافة تعليق توضيحي لهدف واحد فقط (وليس صفًا).
+SyntaxError: يمكن إضافة تعليق توضيحي لهدف واحد فقط (وليس القائمة).
+SyntaxError: يمكن إضافة تعليق توضيحي لهدف واحد فقط (وليس صفًا).
+SyntaxError: يمكن إضافة تعليق توضيحي لهدف واحد فقط (وليس القائمة).
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في SyntaxError: يجب أن تتبع الوسيطات المسماة عارية *
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في بناء الجملة: لا يمكن التعيين إلى __debug__
+خطأ في بناء الجملة: حرف غير صالح '$' (U+00A3)
+خطأ في SyntaxError: لا يمكن استخدام '_' كهدف
+خطأ في SyntaxError: هدف النمط غير صالح
+SyntaxError: الأنماط الموضعية تتبع أنماط الكلمات الرئيسية
+SyntaxError: الأنماط الموضعية تتبع أنماط الكلمات الرئيسية
+SyntaxError: الأنماط الموضعية تتبع أنماط الكلمات الرئيسية
+SyntaxError: الأنماط الموضعية تتبع أنماط الكلمات الرئيسية
+خطأ قواعدي: بناء جملة غير صالح
+خطأ SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح. ربما كنت تقصد "==" أو ":=" بدلاً من "="؟
+خطأ SyntaxError: لا يمكن تعيين تعبير المولد
+SyntaxError: "تعبير المولد" هو تعبير غير قانوني للمهمة المعززة
+باستثناء SyntaxError: pass
+SyntaxError: الوظيفة الخارجية "العائد".
+# SyntaxError: التعيين لإنتاج التعبير غير ممكن
+خطأ SyntaxError: لا يمكن تعيينه لإنتاج التعبير هنا. ربما كنت تقصد "==" بدلاً من "="؟
+SyntaxError: "تعبير العائد" هو تعبير غير قانوني للمهمة المعززة
+باستثناء SyntaxError: pass
+خطأ في بناء الجملة: سيء سيء
+خطأ في بناء الجملة: سيء سيء
+خطأ في بناء الجملة: سيء سيء
+خطأ في بناء الجملة: سيء سيء
+خطأ في بناء الجملة: سيء سيء
+خطأ في بناء الجملة: سيء سيء
+خطأ في بناء الجملة: سيء سيء
+خطأ في بناء الجملة: سيء سيء
+خطأ في بناء الجملة: سيء سيء
+self.assertIn("SyntaxError: كود غير UTF-8 يبدأ بـ '\\x89' في الملف"، خطأ[-1])
+خطأ SyntaxError: لا يمكن استخدام التفريغ التكراري في الفهم
+خطأ SyntaxError: لا يمكن استخدام التفريغ التكراري في الفهم
+خطأ SyntaxError: لا يمكن استخدام التفريغ التكراري في الفهم
+خطأ SyntaxError: لا يمكن استخدام التفريغ التكراري في الفهم
+خطأ SyntaxError: لا يمكن استخدام تفريغ الإملاء في فهم الإملاء
+#     خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+SyntaxError: تعبيرات متعددة مميزة بنجمة في المهمة
+SyntaxError: تعبيرات متعددة مميزة بنجمة في المهمة
+SyntaxError: تعبيرات متعددة مميزة بنجمة في المهمة
+SyntaxError: يجب أن يكون هدف المهمة المميزة بنجمة في قائمة أو مجموعة
+SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+خطأ SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+خطأ SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+خطأ SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+خطأ SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+خطأ SyntaxError: لا يمكن استخدام التعبير المميز بنجمة هنا
+خطأ في SyntaxError: هناك عدد كبير جدًا من التعبيرات في مهمة تفريغ النجوم
+خطأ في SyntaxError: هناك عدد كبير جدًا من التعبيرات في مهمة تفريغ النجوم
+'خطأ قواعدي: بناء جملة غير صالح'
+خطأ في بناء الجملة: ...
+خطأ في بناء الجملة: ...
+؟ # خطأ قواعدي: بناء جملة غير صالح
+self.assertTrue(err.endswith("SyntaxError: msg\n"))
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في SyntaxError: تكرار وسيطة الكلمة الأساسية: metaclass
+خطأ = "SyntaxError: (خطأ Unicode) \\N الهروب غير مدعوم " \
+['خطأ في بناء الجملة: بناء جملة غير صحيح'])
+['ملف "<string>"، السطر 100'، "خطأ في بناء الجملة: بناء جملة غير صحيح"])
+['خطأ في بناء الجملة: بناء جملة غير صحيح (myfile.py)'])
+['ملف "myfile.py"، السطر 100'، "SyntaxError: بناء جملة غير صحيح"])
+المتوقع.append("خطأ في بناء الجملة: رسالة")
+باستثناء SyntaxError: # دع أخطاء الترجمة () الأخرى تنتشر.
+self.write("خطأ في بناء الجملة: %s\n" % msg)
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في SyntaxError: هل نسيت الأقواس حول هدف الفهم؟
+خطأ قواعدي: بناء جملة غير صالح
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في بناء الجملة: عدد عشري حرفي غير صالح
+خطأ في SyntaxError: سلسلة حرفية غير منتهية (تم اكتشافها في السطر 1)
+خطأ في SyntaxError: هل تقصد استخدام "من ... استيراد ..." بدلاً من ذلك؟
+*خطأ في بناء الجملة: EOF غير متوقع أثناء التحليل* أو الإشارة إلى موقع غير صحيح.
+خطأ قواعدي: بناء جملة غير صالح
+خطأ في بناء الجملة: لم يتم إغلاق '{' مطلقًا
+SyntaxError: يجب أن يكون تعبير المولد بين قوسين
+SyntaxError: يجب أن يكون تعبير المولد بين قوسين
+خطأ في بناء الجملة: متوقع ':'
+خطأ في SyntaxError: هل نسيت الأقواس حول هدف الفهم؟
+خطأ قواعدي: بناء جملة غير صالح. ربما نسيت الفاصلة؟
+SyntaxError: يجب وضع قوسين بين أنواع الاستثناءات المتعددة
+SyntaxError: التعبير المتوقع بعد مفتاح القاموس و':'
+خطأ SyntaxError: ':' متوقع بعد مفتاح القاموس
+SyntaxError: الكتلة "باستثناء" أو "أخيرًا" المتوقعة
+خطأ في SyntaxError: لا يمكن تعيين السمة هنا. ربما كنت تقصد "==" بدلاً من "="؟
+خطأ SyntaxError: f-string: لا يمكن استخدام التعبير المميز بنجمة هنا
+آخر: self.fail("لم يتم رفع TabError")
+ckmsg(s، "الاستخدام غير المتناسق لعلامات التبويب والمسافات في المسافة البادئة"، TabError)
+EXPORT_DATA(PyExc_SystemError)
+رفع :exc:`TypeError` بدلاً من :exc:`SystemError` عند تنفيذه على
+يقوم PyObject_Call() وPyCFunction_Call() الآن برفع خطأ SystemError إذا كانت الوظيفة
+إرجاع نتيجة ويثير استثناء. يتم ربط SystemError بـ
+الكثير من الذاكرة وأثار SystemError أو MemoryError. التصحيح الأصلي من قبل Alexi
+خطأ في النظام.
+ارفع خطأ TypeError بدلاً من SystemError في حالة وجود تحذيرات.onceregistry
+الفشل مع SystemError. فشل الاستيراد النسبي من غير الحزمة الآن
+خطأ الاستيراد بدلاً من خطأ النظام.
+منع codecs.escape_encode() من رفع SystemError عندما يكون فارغًا
+يؤدي الاستيراد إلى رفع ImportError بدلاً من SystemError إذا كان هناك استيراد نسبي
+قم برفع ValueError بدلاً من SystemError عند تمرير طول سالب إليه
+تم إصلاح خطأ في النظام تم رفعه بواسطة أداة إلغاء الالتقاط على بيانات المخلل المعطلة.
+يتم الآن ظهور SystemError في جميع أخطاء البرمجة باستخدام
+وحدات التنسيق "es#" و"et#". يتم الآن رفع SystemError بدلاً من
+إصلاح خطأ SystemError في تنفيذ عبارة "raise". بشكل جديد
+خطأ في النظام.
+منع codecs.escape_encode() من رفع SystemError عندما يكون فارغًا
+ارفع ``NotImplementedError`` بدلاً من ``SystemError`` على الأنظمة الأساسية حيث
+رفع :exc:`TypeError` بدلاً من :exc:`SystemError` عند تنفيذه على
+تم إصلاح خطأ SystemError إذا قامت أداة فتح مخصصة (لـ open()) بإرجاع رقم سالب
+ارفع ``NotImplementedError`` بدلاً من ``SystemError`` على الأنظمة الأساسية حيث
+منع codecs.escape_encode() من رفع SystemError عندما يكون فارغًا
+سيؤدي الآن رفع SystemError عند الاستيراد إلى تعيين السبب إلى الأصل
+إصلاح خطأ SystemError / خطأ التجزئة في iter ``__reduce__`` عندما يكون داخليًا
+لم تعد التكرارات القابلة للاستدعاء ترفع :class:`SystemError` عندما يكون الأمر قابلاً للاستدعاء
+إصلاح خطأ SystemError في تنفيذ عبارة "raise". بشكل جديد
+ارفع :exc:`ValueError` بدلاً من :exc:`SystemError` عندما تكون طرق
+الفشل مع SystemError. فشل الاستيراد النسبي من غير الحزمة الآن
+خطأ الاستيراد بدلاً من خطأ النظام.
+أصلح ``SystemError`` في :mod:`ctypes` عندما لم يتم تعيين الاستثناء أثناء
+قم بإصلاح فشل التأكيد المحتمل أو الخطأ الفادح أو :exc:`SystemError` إذا كان
+في السابق، كان من الممكن أن يتسبب ذلك في حدوث خطأ في النظام أو أي سلوك آخر غير مرغوب فيه.
+:c:func:`PyUnicode_FromFormatV` يقوم الآن بتعيين :exc:`SystemError`. في السابق
+تم إصلاح ``SystemError`` الذي يظهر عندما يكون :c:func:`PyArg_ParseTupleAndKeywords`
+أصلح ``SystemError`` عندما تحتوي الوظيفة المتداخلة على تعليق توضيحي على الموضع فقط
+ارفع خطأ TypeError بدلاً من SystemError في حالة وجود تحذيرات.onceregistry
+الفشل مع SystemError. فشل الاستيراد النسبي من غير الحزمة الآن
+خطأ الاستيراد بدلاً من خطأ النظام.
+أصلح أخطاء segfaults و :exc:`SystemError`\ s عند حذف سمات معينة.
+تم إصلاح خطأ SystemError عند حذف السمة المميزة_المكتوبة لملف
+إصلاح حالة الاستثناء غير المعالجة لمترجم نادر، خطأ النظام يظهر فقط عندما
+رفع :exc:`TypeError` بدلاً من :exc:`SystemError` عند تنفيذه على
+تم إصلاح :exc:`SystemError` في :c:func:`PyArg_ParseTupleAndKeywords` عندما
+:exc: استثناءات `SystemError`. التصحيح بواسطة فيكتور ستينر.
+إصلاح الخطأ :exc:`SystemError` في ``math.{atan2,copysign,remainder}()``
+اسم الطريقة في رسالة الخطأ SystemError "إشارات الاتصال غير الصحيحة" لتسهيل تصحيح الأخطاء.
+:c:func:`PyNumber_ToBase` يُثير الآن :exc:`SystemError` بدلاً من
+تم إصلاح خطأ SystemError إذا قامت أداة فتح مخصصة (لـ open()) بإرجاع رقم سالب
+قم برفع ValueError بدلاً من SystemError عند تمرير طول سالب إليه
+يقوم importlib.__import__() برفع SystemError مثل buildins.__import__() عندما
+تم إصلاح خطأ في النظام تم رفعه بواسطة أداة إلغاء الالتقاط على بيانات المخلل المعطلة.
+تم إصلاح ``SystemError`` الذي يظهر عند استخدام ``PyArg_Parse*()`` مع ``#`` لكن
+- المشكلة رقم 23914: تم إصلاح خطأ في النظام أثاره برنامج إلغاء الالتقاط على بيانات المخلل المعطلة.
+استهلك الكثير من الذاكرة وأدى إلى ظهور SystemError أو MemoryError.
+- المشكلة رقم 15839: تحويل SystemErrors في `super()` إلى RuntimeErrors.
+- المشكلة رقم 15846: إصلاح خطأ النظام الذي حدث عند استخدام `ast.parse()` في
+- المشكلة رقم 17710: إصلاح مشكلة رفع خطأ النظام عند الإدخال الزائف.
+- المشكلة رقم 13343: إصلاح خطأ في النظام عندما يستخدم تعبير lambda الخطأ العمومي
+- المشكلة رقم 6373: تم إصلاح خطأ في النظام عند التشفير باستخدام برنامج الترميز latin-1 وبرنامج الترميز
+- خطأ في النظام تم إصلاحه بسبب "النطاق ([]، 1، -1)".
+من شأنه أن يثير SystemError.
+- المشكلة رقم 2221: تم تصحيح خطأ SystemError "إرجاع الخطأ بدون استثناء
+- العدد رقم 1973: bytes.fromhex('') يظهر خطأ في النظام.
+قم أيضًا بإصلاح خطأ SystemError عند محاولة تعيين تعبيرات العائد.
+- الخطأ رقم 1487966: إصلاح خطأ النظام في التعبير الشرطي في المهمة
+- SF Bug #976608: إصلاح SystemError عندما يكون وقت الملف المستورد هو -1.
+- خطأ SF رقم 762891: "del p[key]" على كائن الوكيل لم يعد يثير خطأ النظام.
+تعريف __العنصر__. في السابق، تم إنشاء خطأ SystemError.
+تحويلها إلى SystemError، تركنا الاستثناء الأصلي
+خطأ ولذا فهو مستمد من الاستثناء وليس SystemError. ال
+[data.PyExc_SystemError]
+الكائنات/الاستثناءات.c:PyExc_SystemError static PyTypeObject PyExc_SystemError
+الكائنات/الاستثناءات.c:_PyExc_SystemError static PyTypeObject _PyExc_SystemError
+الكائنات/الاستثناءات.c - _PyExc_SystemError -
+الكائنات/الاستثناءات.c - PyExc_SystemError -
+PyErr_SetString(PyExc_SystemError, "أرقام مجمعة غير ascii");
+PyErr_SetString(PyExc_SystemError, "no Symtable");
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError، "يجب ألا يكون %s op %d ممكنًا"،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError، "القفز باستخدام هدف NULL");
+PyErr_SetString(PyExc_SystemError،
+/* ارفع خطأ النظام إذا لم يكن القفز أو الخروج هو آخر تعليمة في الكتلة. */
+PyErr_SetString(PyExc_SystemError، "رسم بياني لتدفق التحكم تالف.");
+PyErr_SetString(PyExc_SystemError، "تعبير غير متوقع");
+PyErr_SetString(PyExc_SystemError، "نمط غير متوقع");
+PyErr_SetString(PyExc_SystemError، "بيان غير متوقع");
+PyErr_SetString(PyExc_SystemError، "عقدة الوحدة المستحيلة");
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(حالة، PyExc_SystemError،
+PyErr_SetString(state, PyExc_System Error, "list is not int");
+_PyErr_Format(tstate، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+PyErr_SetString(حالة، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(حالة، PyExc_SystemError،
+PyErr_SetString(state, PyExc_System Error, "list is not int");
+_PyErr_Format(tstate، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+PyErr_SetString(حالة، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError, message);
+PyErr_SetString(PyExc_SystemError, \
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError، "%s: '%s'"، رسالة،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError، "%s: '%s'"، رسالة،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(state, PyExc_SystemError, "missing interp");
+_PyErr_SetString(tstate, PyExc_SystemError, "missing new_object func");
+_PyErr_Format(tstate، PyExc_SystemError،
+PyErr_SetString(حالة، PyExc_SystemError،
+_PyErr_SetString(tstate, PyExc_SystemError, "الإطار غير موجود");
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+PyErr_Format(PyExc_SystemError،
+بييكس_سيستميرور،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError, \
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError، "الوحدة النمطية '%s' لا تحتوي على __dict__"،
+PyErr_SetString(PyExc_SystemError, "نوع العضو غير صالح");
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+PyErr_SetString(حالة، PyExc_SystemError،
+PyErr_SetString(حالة، PyExc_SystemError،
+_PyErr_SetString(tstate, PyExc_SystemError, "وظيفة جوهرية غير صالحة");
+PyErr_SetString(حالة، PyExc_SystemError،
+PyAPI_DATA(PyObject *) PyExc_SystemError;
+PyErr_SetString(PyExc_SystemError،
+تم ضبطه. قم بإرجاع NULL ورفع استثناء عند الخطأ. رفع خطأ في النظام إذا
+/* ظهور خطأ في النظام عند مسح أو تحديث المجموعة المجمدة */
+AssuredRaises(PySet_Clear(f) == -1, PyExc_SystemError);
+AssuredRaises(_PySet_Update(f, dup) == -1, PyExc_SystemError);
+AssuredRaises(PySet_Add(f, elem) == -1, PyExc_SystemError);
+/* رفع خطأ النظام عندما لا تكون الوسيطة الذاتية مجموعة أو مجمدة. */
+AssuredRaises(PySet_Size(t) == -1, PyExc_SystemError);
+AssuredRaises(PySet_Contains(t, elem) == -1, PyExc_SystemError);
+/* رفع خطأ النظام عندما لا تكون الوسيطة الذاتية مجموعة. */
+AssuredRaises(PySet_Discard(f, elem) == -1, PyExc_SystemError);
+AssuredRaises(PySet_Pop(f) == NULL, PyExc_SystemError);
+PyErr_SetString(PyExc_SystemError،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+PyErr_SetString(PyExc_SystemError، "وحدة بدون اسم");
+PyErr_SetString(PyExc_SystemError، "اسم ملف الوحدة مفقود");
+PyErr_SetString(PyExc_SystemError، "Py_tp_bases ليس صفًا");
+بييكس_سيستميرور،
+بييكس_سيستميرور،
+PyErr_SetString(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError، "how_many لا يمكن أن يكون سالبًا");
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError، "نوع غير صالح");
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError، "سلسلة تنسيق غير صالحة:٪ s"، p)؛
+PyErr_SetString(PyExc_SystemError، "الوسائط الافتراضية غير Tuple");
+PyErr_SetString(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError، "في structseq_repr()، اسم العضو %zd هو NULL"
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(حالة، PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+* خطأ في النظام يمتد إلى الاستثناء
+SimpleExtendsException(PyExc_Exception، SystemError،
+العنصر (خطأ في النظام)،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(حالة، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+_PyErr_Format(tstate، PyExc_SystemError،
+يقوم Py_FatalError() بتسجيل استثناء SystemError المرفوع أعلاه. */
+tstate، PyExc_SystemError،
+tstate، PyExc_SystemError،
+يقوم Py_FatalError() بتسجيل استثناء SystemError المرفوع أعلاه. */
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+PyErr_Format(PyExc_SystemError،
+فئة CodecRegistryError (LookupError، SystemError):
+رفع SystemError("حجم(%s) خطأ: %d بدلاً من %d" % \
+رفع SystemError(f"حجم غير متوقع لـ(time_t): {SIZEOF_TIME_T=}")
+خطأ في النظام
+# يؤدي ما يلي إلى ظهور خطأ SystemError في الإصدار 2.4
+# PyTuple_New يثير SystemError إذا تم تمرير وسيطة غير صالحة.
+مع self.assertRaises (SystemError):
+PyExc_SystemError
+# حيث يمكن أن تؤدي مكالمات iter `__reduce__` إلى خطأ segfault أو SystemError
+خطأ في النظام،
+# يؤدي هذا إلى ظهور خطأ SyntaxError، وهو يُستخدم لرفع خطأ SystemError. سياق
+# اختبار لخطأ SF رقم 1022953. تأكد من عدم ظهور SystemError.
+مع self.assertRaises (SystemError):
+مع self.assertRaises (SystemError):
+# يتم رفع خطأ في اختبار النظام عند سوء عمل الامتدادات.
+مع self.assertRaises(SystemError) كـ cm:
+# مع "خطأ في النظام".
+# فشل هذا مع SystemError: وسيطة سيئة للوظيفة الداخلية
+self.assertRaises((OverflowError، MemoryError، SystemError)،
+self.assertRaises((OverflowError، MemoryError، SystemError)،
+# __setstate__ يجب ألا يؤدي إلى ظهور خطأ في النظام ولا يتعطل في حالة حدوث ذلك
+newcode = code.replace(co_name="func") # لا ينبغي رفع SystemError
+مع self.assertRaisesRegex (SystemError، msg):
+self.assertRaises(SystemError, SetExtra, 42, FREE_INDEX,
+self.assertRaises(SystemError, GetExtra, 42, FREE_INDEX,
+self.assertRaises(SystemError, SetExtra, f.__code__,
+self.raise_catch(SystemError، "SystemError")
+self.assertRaises(SystemError, _testcapi.raise_exception,
+self.assertRaises(SystemError, _testcapi.make_exception_with_doc,
+# رفع خطأ في النظام.
+اختبار def test_del__CHUNK_SIZE_SystemError(self):
+# تحذير_explicit () يجب ألا يؤدي إلى ظهور خطأ في النظام ولا يتسبب في حدوث خطأ
+# تحذير_explicit () لا ينبغي أن يثير خطأ SystemError في هذه الحالة
+رفع خطأ النظام ("kablooie")
+self.assertRaises(SystemError, mock, 1, 2, Fish=3)
+رفع SystemError("لا ينبغي رفع هذا")
+رفع SystemError("نفاد المساحة تقريبًا")
+مع self.assertRaises(SystemError) كخطأ:
+# أدى الاستيراد في الكتلة "أخيرًا" إلى خطأ في النظام
+├── خطأ في النظام
+# ولكنه يستخدم لإعطاء خطأ في النظام
+مع self.assertRaises (SystemError):
+self.assertRaises(SystemError, getargs_s_hash_int, buf, "abc")
+self.assertRaises(SystemError, getargs_s_hash_int, buf, x=42)
+self.assertRaises (SystemError، getargs_s_hash_int، buf، x = "abc")
+self.assertRaises(SystemError, getargs_s_hash_int2, buf, ("abc"))
+self.assertRaises(SystemError, getargs_s_hash_int2, buf, x=42)
+self.assertRaises (SystemError، getargs_s_hash_int2، buf، x = "abc")
+# قد لا يؤدي getargs_s_hash_int(buf) إلى رفع SystemError لأن Skiitem()
+باستثناء SystemError كـ e:
+باستثناء SystemError كـ e:
+مع self.assertRaisesRegex (SystemError،
+مع self.assertRaisesRegex (SystemError،
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+self.assertRaises(SystemError, _testcapi.parse_tuple_and_keywords,
+باستخدام self.assertRaisesRegex(SystemError، r'Empty اسم المعلمة بعد \$'):
+باستخدام self.assertRaisesRegex (SystemError، 'كلمة رئيسية فارغة'):
+self.assertRaisesRegex(SystemError، "سلسلة تنسيق غير صالحة"،
+self.assertRaisesRegex(SystemError، "سلسلة تنسيق غير صالحة"،
+self.assertRaises (SystemError، unicode_asucs4، s، l-1، True)
+self.assertRaises (SystemError، unicode_asucs4، s، l-2، False)
+self.assertRaises (خطأ في النظام، الانضمام، '|'، NULL)
+self.assertRaises(SystemError, format, 'x=%d!', NULL)
+self.assertRaises (SystemError، format، NULL، 42)
+خطأ في النظام،
+self.assertRaises (SystemError، unicode_copycharacters، s، 1، s، 0، 5)
+self.assertRaises (SystemError، unicode_copycharacters، s، 0، s، 0، -1)
+self.assertRaises(SystemError, unicode_copycharacters, s, 0, b'', 0, 0)
+r'SystemError: <الوظيفة المضمنة return_null_without_error> '
+مع self.assertRaises(SystemError) كـ cm:
+r'خطأ النظام: <مدمج'
+مع self.assertRaises(SystemError) كـ cm:
+إذا لم يكن "SystemError:" مخطئًا:
+مع self.assertRaises (SystemError):
+self.assertRaises(SystemError, pynumber_tobase, 123, 0)
+مع self.assertRaises (SystemError):
+مع self.assertRaises (SystemError):
+مع self.assertRaises (SystemError):
+مع self.assertRaises (SystemError):
+مع self.assertRaises (SystemError):
+مع self.assertRaises (SystemError):
+مع self.assertRaises (SystemError):
+مع self.assertRaises (SystemError):
+مع self.assertRaises (SystemError):
+# يستخدم هذا لرفع "خطأ النظام: نتيجة NULL بدون خطأ"
+# يستخدم للفشل بسبب خطأ في النظام.
+# يُستخدم لرفع SystemError('خطأ في العودة بدون مجموعة استثناءات')
+self.assertRaises(SystemError, dict_getitem_knownhash, [], 1, hash(1))
+# لا ينبغي ظهور خطأ SystemError إذا كان الوسيط الأول لـ atan2()،
+باستثناء خطأ النظام:
+باستثناء SystemError: # تغيير الحجم غير مدعوم عالميًا
+باستثناء خطأ النظام:
+باستثناء خطأ النظام:
+# خطأ في النظام.
+رفع SystemError("فشل تحميل برامج الترميز المضمنة: %s' % لماذا)
+رفع خطأ النظام (
+رفع خطأ النظام (كيف، ماذا)
+... excs = [OSError('خطأ 1')، SystemError('خطأ 2')]
+| خطأ في النظام: خطأ 2
+... خطأ في النظام (2)،
+... باستثناء* خطأ في النظام كـ e:
+... طباعة ("كانت هناك أخطاء في النظام")
+كانت هناك أخطاء في النظام
+"StopIteration"، "SyntaxError"، "SyntaxWarning"، "SystemError"،
+.. استثناء:: خطأ في النظام
+سيتم رفع :exc:`ImportError`. في السابق، كان من الممكن أن يكون :exc:`SystemError`
+:c:func:`PyUnicode_FromFormatV` يقوم الآن بتعيين :exc:`SystemError`.
+حيث،PyExc_SystemError،3.2،،
+تثير هذه الوظيفة :exc:`SystemError` عندما:
+يقوم الآن حرف تنسيق غير معروف بتعيين :exc:`SystemError`.
+على وجه الخصوص، a :exc:`SystemError` إذا كان *buflen* أصغر من طول
+يرفع :exc:`MemoryError` أو :exc:`SystemError`.
+يرفع :exc:`SystemError` ويعيد ``-1`` عند الفشل.
+يرفع :exc:`SystemError` ويعيد ``-1`` عند الفشل.
+يرفع :exc:`SystemError` ويعيد ``-1`` عند الفشل.
+``لين (أنيسيت)``. يثير :exc:`PyExc_SystemError` إذا لم تكن *anyset* عبارة عن
+*المفتاح* غير قابل للتجزئة. ارفع :exc:`PyExc_SystemError` إذا لم تكن *anyset*
+:exc:`SystemError` إذا لم يكن *set* مثيلاً لـ :class:`set` أو مثيلاً له
+مجموعات مجمدة مؤقتة. ارفع :exc:`PyExc_SystemError` إذا لم تكن *set*
+المجموعة فارغة. ارفع :exc:`SystemError` إذا لم تكن *set* مثيلًا لـ
+الكائن *س*. في حالة الفشل، يتم رفع :exc:`SystemError` وإرجاع ``NULL``. هذا
+يتم رفع :exc:`SystemError` وإرجاع ``NULL``.
+واحد: خطأ في النظام (استثناء مدمج)
+أو إذا لم تكن سلسلة، فسيتم رفع :exc:`SystemError` وإرجاع ``NULL``.
+واحد: خطأ في النظام (استثناء مدمج)
+سلسلة يونيكود، ارفع :exc:`SystemError` وأرجع ``NULL``؛ وإلا العودة
+رفع استثناء. إذا لم يتم طرح أي استثناء حتى الآن، فإن :exc:`SystemError` يكون كذلك
+إذا كان هناك خطأ في سلسلة التنسيق، فسيكون الاستثناء :exc:`SystemError`
+هذا اختصار لـ ``PyErr_SetString(PyExc_SystemError, message)``،
+واحد: PyExc_SystemError
+| :c:data:`PyExc_SystemError` | :exc:`خطأ في النظام` | |
+PyErr_SetString(PyExc_SystemError، "فشل في الانضمام إلى المسارات");
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError، "def غير متطابق");
+PyErr_SetString(PyExc_SystemError، "وظيفة تصدير سيئة");
+PyErr_SetString(PyExc_SystemError، "وظيفة تصدير سيئة");
+PyErr_SetString(PyExc_SystemError، "وظيفة إنشاء سيئة");
+PyErr_SetString(PyExc_SystemError، "وظيفة إنشاء سيئة");
+PyErr_SetString(PyExc_SystemError، "وظيفة exec سيئة");
+PyErr_SetString(PyExc_SystemError، "وظيفة exec سيئة");
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+إذا (PyErr_ExceptionMatches(PyExc_SystemError)) {
+إذا (!PyErr_ExceptionMatches(PyExc_SystemError)) {
+إذا (!PyErr_ExceptionMatches(PyExc_SystemError)) {
+إذا (!PyErr_ExceptionMatches(PyExc_SystemError)) {
+إذا (!PyErr_ExceptionMatches(PyExc_SystemError)) {
+PyErr_Format(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError, "_WindowsConsoleIO لديه وضع غير صالح");
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+PyErr_SetString(PyExc_SystemError،
+/* لدينا مقاطعة لوحة المفاتيح أو خطأ في النظام؛ أعد رفعه */
+إذا (unpacked == NULL && PyErr_ExceptionMatches(PyExc_SystemError)) {
+لم يتم ظهور خطأ النظام: %s
+إذا (PyErr_ExceptionMatches(PyExc_SystemError)) {
+إذا (!PyErr_ExceptionMatches(PyExc_SystemError)) {
+"شيء آخر غير خطأ النظام");
+PyErr_Format(PyExc_SystemError،
+رفع SystemExit('الرجاء ضبط خريطة JIS X 0213 باستخدام jisx0213-2000-std.txt.diff')
+رفع SystemExit(f'{source} مطلوب')
+رفع SystemExit("يجب تشغيله كبرنامج رئيسي")
+رفع SystemExit("يُسمح بواحد فقط من --8 بت و--unicode")
+رفع SystemExit(exit_status)
+- خروج (sts): رفع SystemExit
+رفع SystemExit(رمز)
+رفع SystemExit("يمكن الحصول على معلومات لملف أرشيف فقط")
+رفع SystemExit("تحرير الأرشيف في مكانه غير مدعوم")
+رفع SystemExit("لا يمكن تغيير الوظيفة الرئيسية عند النسخ")
+رفع SystemExit(0)"""
+رفع SystemExit
+رفع SystemExit
+رفع SystemExit
+rc, out, err =asser_python_failure('-c', 'raise SystemExit(47)')
+رفع SystemExit
+المفسرون.run_string(self.id, 'raise SystemExit(42)')
+رفع SystemExit
+رفع SystemExit
+رفع SystemExit(رمز)
+رفع SystemExit(e)
+رفع خروج النظام(1)
+رفع SystemExit
+# التحقق من عدم وجود دليل المستخدم ويجب أن يؤدي فشل الإنشاء إلى رفع SystemExit
+# التحقق من عدم وجود دليل المستخدم ويجب أن يؤدي فشل الإنشاء إلى رفع SystemExit
+هذا مرادف لـ "رفع SystemExit". وسوف يسبب التيار\n\
+قم برفع خطأ TypeError: "كائن 'tuple' غير قابل للاستدعاء" بدلاً من المتوقع
+* خطأ TypeError: كائن 'NoneType' غير قابل للاشتراك
+const char *const msg = "TypeError: print_exception(): الاستثناء متوقع"
+TypeError: إذا تم تمرير قائمة كائنات الإصدار المختلط.
+خطأ في الكتابة: إذا كان عنوان الذات والآخر عنوانًا مختلفًا
+باستثناء TypeError: pass
+# TypeError: BNotMeta ليس a
+باستثناء TypeError: pass
+باستثناء TypeError: pass
+باستثناء TypeError: pass
+باستثناء TypeError: pass
+باستثناء TypeError: pass
+باستثناء TypeError: pass
+باستثناء TypeError: pass
+باستثناء TypeError: pass
+## باستثناء TypeError: pass
+حاول: تمرير\nباستثناء ValueError: تمرير\nexcept* TypeError: pass\n
+حاول: تمرير\nباستثناء* ValueError: تمرير\nباستثناء TypeError: تمرير\n
+حاول: تمرير\nباستثناء ValueError كـ e: pass\nexcept* TypeError: pass\n
+حاول: تمرير\nباستثناء* ValueError كـ e: pass\nباستثناء TypeError: pass\n
+TypeError: لا يمكن فك ضغط كائن int غير القابل للتكرار
+TypeError: لا يمكن فك ضغط كائن int غير القابل للتكرار
+TypeError: exec() arg 1 يجب أن يكون عبارة عن سلسلة أو بايت أو كائن رمز
+TypeError: eval() arg 1 يجب أن يكون عبارة عن سلسلة أو بايت أو كائن رمز
+self._check_error("محاولة: تمرير\nباستثناء ValueError: تمرير\nexcept* TypeError: pass"،
+self._check_error("محاولة: تمرير\nباستثناء* ValueError: تمرير\nexcept TypeError: pass"،
+TypeError: الكائن 'int' غير قابل للتكرار
+# يجب بالتأكيد رفع TypeError: القائمة تأخذ وسيطة واحدة فقط.
+# `TypeError: لا يمكن تعيين سمات النوع المضمن/الملحق "dict"`
+(هاتف) خطأ في الكتابة:
+"(الهاتف) TypeError: عدد كبير جدًا من أدوات التهيئة")
+# TypeError: int متوقع بدلاً من مثيل str
+# TypeError: int متوقع بدلاً من مثيل str
+# TypeError: متوقع بدلاً من المثيل العائم
+# خطأ في النوع: لا يحتوي على طريقة from_param
+# في Python 2.3، يؤدي هذا إلى ظهور تعارض TypeError: MRO بين فئات القواعد،
+الوسيطة 1: خطأ في الكتابة: بايت واحد من الأحرف،
+الوسيطة 2: TypeError: سلسلة Unicode متوقعة
+الوسيطة 2: TypeError: سلسلة Unicode مكونة من حرف واحد
+# TypeError: _anonymous_ يجب أن يكون تسلسلاً
+TypeError: لا يمكن إرسال قيمة غير "لا شيء" إلى المولد الذي بدأ للتو
+TypeError: قد لا يحتوي استثناء المثيل على قيمة منفصلة
+TypeError: يجب أن تكون الوسيطة الثالثة throw() كائن تتبع
+TypeError: يجب أن تكون الاستثناءات فئات أو مثيلات مشتقة من BaseException، وليس str
+TypeError: يجب أن تكون الاستثناءات فئات أو مثيلات مشتقة من BaseException، وليس int
+TypeError: يجب أن تكون الاستثناءات فئات أو مثيلات مشتقة من BaseException، وليس كتابة
+خطأ في الكتابة: عذرًا!
+باستثناء TypeError: pass
+TypeError: الكائن 'int' غير قابل للتكرار
+TypeError: الكائن 'int' ليس تعيينًا
+خطأ TypeError: كائن "القائمة" ليس تعيينًا
+خطأ في النوع: حصل test.test_unpack_ex.f() على قيم متعددة لوسيطة الكلمة الرئيسية 'x'
+خطأ في النوع: حصل test.test_unpack_ex.f() على قيم متعددة لوسيطة الكلمة الرئيسية 'x'
+خطأ في النوع: حصل test.test_unpack_ex.f() على قيم متعددة لوسيطة الكلمة الرئيسية 'x'
+خطأ في النوع: حصل test.test_unpack_ex.f() على قيم متعددة لوسيطة الكلمة الرئيسية 'x'
+خطأ في النوع: حصل test.test_unpack_ex.f() على قيم متعددة لوسيطة الكلمة الرئيسية "1"
+TypeError: لا يمكن فك ضغط كائن int غير القابل للتكرار
+# "TypeError: fork_exec() يأخذ بالضبط N من الوسائط (M محدد)"
+self.assertIn('TypeError: عملية تنظيف سيئة 1'، formatted_exc)
+self.assertIn('TypeError: عملية تنظيف سيئة 1'، formatted_exc)
+self.assertIn('TypeError: عملية تنظيف سيئة 1'، formatted_exc)
+self.assertIn('TypeError: عملية تنظيف سيئة 1'، formatted_exc)
+self.assertIn('TypeError: عملية تنظيف سيئة 1'، formatted_exc)
+self.assertIn('TypeError: عملية تنظيف سيئة 1'، formatted_exc)
+... خطأ في الكتابة: نوع خاطئ
+خطأ في الكتابة: نوع خاطئ
+self.assertTrue("TypeError: print_exception(): الاستثناء المتوقع لـ " \
+خطأ في النوع: حصل __build_class__() على قيم متعددة لوسيطة الكلمة الرئيسية "metaclass"
+# TypeError: يجب أن تكون الوسيطة int، أو أن يكون لها أسلوب fileno().
+و' | خطأ في الكتابة: 2\n')
+('خطأ في النوع: print_exception():'
+و' | خطأ في الكتابة: 2\n'
+و' | خطأ في الكتابة: 2\n'
+و' | خطأ في الكتابة: 4\n'
+و' | خطأ في الكتابة: 2\n'
+و' | خطأ في الكتابة: 4\n'
+و' | خطأ في الكتابة: 2\n'
+و' | خطأ في الكتابة: 3\n'
+و' | خطأ في الكتابة: 0'،
+و' | خطأ في الكتابة: 1'،
+# TypeError: BNotMeta ليس a
+خطأ في النوع: حصل test.test_extcall.f() على قيم متعددة لوسيطة الكلمة الرئيسية 'a'
+خطأ في النوع: حصل test.test_extcall.f() على قيم متعددة لوسيطة الكلمة الرئيسية 'a'
+خطأ في النوع: حصل test.test_extcall.f() على قيم متعددة لوسيطة الكلمة الرئيسية 'a'
+خطأ في النوع: حصلت e() على وسيطة كلمة رئيسية غير متوقعة "c"
+خطأ في الكتابة: g() يفتقد وسيطة موضعية واحدة مطلوبة: 'x'
+خطأ في الكتابة: g() يفتقد وسيطة موضعية واحدة مطلوبة: 'x'
+خطأ في الكتابة: g() يفتقد وسيطة موضعية واحدة مطلوبة: 'x'
+TypeError: يجب أن تكون الوسيطة test.test_extcall.g()‎ بعد * قابلة للتكرار، وليست لا شيء
+TypeError: يجب أن تكون الوسيطة test.test_extcall.g()‎ بعد * قابلة للتكرار، وليست لا شيء
+خطأ في الكتابة: خطأي
+خطأ في الكتابة: خطأي
+خطأ في الكتابة: خطأي
+خطأ في الكتابة: خطأي
+خطأ في الكتابة: خطأي
+خطأ في الكتابة: خطأي
+خطأ في الكتابة: خطأي
+خطأ في الكتابة: خطأي
+خطأ في الكتابة: حصلت g() على قيم متعددة للوسيطة 'x'
+خطأ في الكتابة: يجب أن تكون الكلمات الأساسية عبارة عن سلاسل
+خطأ في الكتابة: حصلت h() على وسيطة كلمة رئيسية غير متوقعة "e"
+TypeError: يجب أن تكون الوسيطة test.test_extcall.h()‎ بعد * قابلة للتكرار، وليست دالة
+TypeError: القيمة بعد * يجب أن تكون قابلة للتكرار، وليست دالة
+TypeError: القيمة بعد * يجب أن تكون قابلة للتكرار، وليست دالة
+TypeError: يجب أن تكون وسيطة dir() بعد * قابلة للتكرار وليست دالة
+TypeError: لا توجد وسيطة بعد * يجب أن تكون قابلة للتكرار، \
+TypeError: يجب أن تكون الوسيطة test.test_extcall.h()‎ بعد ** تعيينًا، وليس دالة
+TypeError: يجب أن تكون وسيطة test.test_extcall.h() بعد ** عبارة عن تعيين، وليس قائمة
+TypeError: يجب أن تكون الوسيطة test.test_extcall.h()‎ بعد ** تعيينًا، وليس دالة
+TypeError: يجب أن تكون وسيطة test.test_extcall.h() بعد ** عبارة عن تعيين، وليس قائمة
+TypeError: يجب أن تكون الوسيطة test.test_extcall.h()‎ بعد ** تعيينًا، وليس دالة
+TypeError: يجب أن تكون وسيطة test.test_extcall.h() بعد ** عبارة عن تعيين، وليس قائمة
+TypeError: وسيطة dir() بعد ** يجب أن تكون تعيينًا وليست وظيفة
+TypeError: لا توجد وسيطة بعد ** يجب أن تكون تعيينًا، \
+خطأ في النوع: حصل dir() على قيم متعددة لوسيطة الكلمة الرئيسية "b"
+خطأ في النوع: حصل test.test_extcall.g() على قيم متعددة لوسيطة الكلمة الرئيسية 'x'
+خطأ في النوع: حصل test.test_extcall.g() على قيم متعددة لوسيطة الكلمة الرئيسية 'x'
+خطأ في النوع: حصل test.test_extcall.g() على قيم متعددة لوسيطة الكلمة الرئيسية 'x'
+TypeError: s3() يفتقد وسيطة واحدة مطلوبة للكلمة الرئيسية فقط: 'n'
+TypeError: id() لا يأخذ أي وسيطات للكلمات الرئيسية
+خطأ TypeError: f() يأخذ 0 وسيطة موضعية ولكن تم إعطاء 1
+TypeError: f() تأخذ وسيطة موضعية واحدة ولكن تم إعطاء 2 منها
+TypeError: f() تأخذ من 1 إلى 2 من الوسيطات الموضعية ولكن تم إعطاء 3 منها
+TypeError: f() تأخذ 0 وسيطة موضعية ولكن تم تقديم وسيطة موضعية واحدة (وسيطة واحدة للكلمة الرئيسية فقط)
+TypeError: f() تأخذ 0 وسيطات موضعية ولكن تم تقديم 3 وسيطات موضعية (ووسيطتين للكلمات الرئيسية فقط)
+TypeError: f() تأخذ من 1 إلى 2 وسيطة موضعية ولكن تم تقديم 3 وسيطات موضعية (وسيطة واحدة للكلمة الرئيسية فقط)
+خطأ في الكتابة: f() يفتقد وسيطة موضعية واحدة مطلوبة: 'a'
+TypeError: f() يفتقد وسيطتين موضعيتين مطلوبتين: 'a' و'b'
+TypeError: f() تفتقد 3 وسيطات موضعية مطلوبة: 'a'، و'b'، و'c'
+TypeError: f() تفتقد 5 وسيطات موضعية مطلوبة: 'a' و'b' و'c' و'd' و'e'
+خطأ في الكتابة: f() يفتقد وسيطة موضعية واحدة مطلوبة: 'a'
+TypeError: f() يفتقد وسيطة واحدة مطلوبة للكلمة الرئيسية فقط: 'w'
+TypeError: f() يفتقد 5 وسيطات مطلوبة للكلمات الرئيسية فقط: 'a' و'b' و'c' و'd' و'e'
+# TypeError: setvar() يأخذ 3 وسيطات بالضبط (2 محدد)
+TypeError: files() تأخذ من 0 إلى 1 وسيطة موضعية ولكن تم إعطاء 2 منها
+باستثناء TypeError: # معلمات غير قابلة للتجزئة
+باستثناء TypeError: # الفئات المضمنة
+TypeError: حصلت f() على قيم متعددة لوسيطة الكلمة الأساسية 'a'\n
+TypeError: الكائن من النوع 'C' لا يحتوي على len()\n
+TypeError: يحتاج الواصف '__hash__' للكائن 'int' إلى خطأ
+TypeError: يمكنه فقط وصل سلسلة (وليس "int") إلى سلسلة
+TypeError: نوع (أنواع) المعامل غير مدعومة لـ /: 'str' و'str'
+خطأ في الكتابة: نوع سيء
+TypeError: حصلت الدالة () على قيم متعددة للوسيطة 'a'
+خطأ في النوع: حصل pos_only_arg() على بعض الوسائط الموضعية فقط التي تم تمريرها كوسيطات للكلمات الرئيسية: 'arg'
+TypeError: kwd_only_arg() يأخذ 0 وسيطة موضعية ولكن تم إعطاء 1
+TypeError: Combined_example() يأخذ وسيطتين موضعيتين ولكن تم تقديم 3 منها
+TypeError: حصل Combine_example() على بعض الوسائط الموضعية فقط التي تم تمريرها كوسائط للكلمات الرئيسية: 'pos_only'
+خطأ في النوع: حصل foo() على قيم متعددة للوسيطة 'name'
+TypeError: الكائن 'tuple' لا يدعم تعيين العنصر
+TypeError: الكائن 'str' لا يدعم تعيين العنصر
+TypeError: الكائن 'str' لا يدعم تعيين العنصر
+TypeError: divmod() لا يأخذ أي وسيطات للكلمات الرئيسية
+TypeError: الكائن 'tuple' لا يدعم تعيين العنصر
+TypeError: الكائن 'tuple' لا يدعم تعيين العنصر
+TypeError: الكائن 'tuple' لا يدعم تعيين العنصر
+TypeError: الكائن 'tuple' لا يدعم تعيين العنصر
+خطأ في الكتابة: لا يمكن حذف السمة الرقمية/الحرف
+خطأ في الكتابة: مطلوب عدد صحيح (تم الحصول على النوع str)
+خطأ في الكتابة: لا يمكن حذف السمة الأولى
+TypeError: يجب أن تكون قيمة السمة الأولى عبارة عن سلسلة
+خطأ في الكتابة: مطلوب عدد صحيح (تم الحصول على النوع str)
+خطأ في الكتابة: لا يمكن حذف السمة الأولى
+خطأ في الكتابة: لا يمكن حذف السمة الرقمية/الحرف
+TypeError: يجب أن تكون قيمة السمة الأولى عبارة عن سلسلة
+خطأ في الكتابة: مطلوب عدد صحيح (تم الحصول على النوع str)
+TypeError: '>' غير مدعوم بين مثيلات 'datetime.timedelta' و'int'
+خطأ في الكتابة: f() يفتقد وسيطة موضعية واحدة مطلوبة: 'a'
+TypeError: نوع (أنواع) المعامل غير مدعومة لـ +: 'int' و'NoneType'
+TypeError: نوع (أنواع) المعامل غير مدعومة لـ +: 'int' و'NoneType'
+TypeError: '<' غير مدعوم بين مثيلات 'PureWindowsPath' و'PurePosixPath'
+خطأ TypeError: <lambda>() يأخذ 3 وسيطات بالضبط (تم تقديم 1 منها)
+خطأ TypeError: كائن 'NonCallableMock' غير قابل للاستدعاء
+خطأ TypeError: <lambda>() يأخذ وسيطتين على الأقل (تم تقديم 1)
+TypeError: لا يمكن تعديل ذاكرة القراءة فقط
+TypeError: لا يمكن أن تكون الوسيطة isinstance() 2 عامة ذات معلمات
+TypeError: لا توجد متغيرات نوع متبقية في dict[str]
+خطأ في النوع: لا يمكن أن تحتوي وسيطة isinstance() 2 على معلمات عامة
+TypeError: لا يمكن إنشاء مثيلات 'types.UnionType'
+ArgumentError: الوسيطة 2: TypeError: لا أعرف كيفية تحويل المعلمة 2
+ArgumentError: الوسيطة 2: TypeError: نوع خاطئ
+ctypes.ArgumentError: الوسيطة 2: TypeError: بايت واحد من الأحرف، أو bytearray أو عدد صحيح متوقع
+TypeError: عدد كبير جدًا من أدوات التهيئة
+خطأ في الكتابة: من المتوقع أن يكون c_long بدلاً من int
+TypeError: الأنواع غير المتوافقة، مثيل c_byte_Array_4 بدلاً من مثيل LP_c_long
+TypeError: %b يتطلب بايت، أو كائن ينفذ __bytes__، وليس 'str'
+TypeError: 'str' لا يدعم واجهة المخزن المؤقت
+TypeError: فشل الترميز باستخدام برنامج الترميز 'bz2' (TypeError: 'str' لا يدعم واجهة المخزن المؤقت)
+TypeError: يمكنك التفاعل مع البيانات العشرية فقط مع أنواع البيانات int أو الطويلة أو العشرية.
+خطأ في الكتابة: لا يمكن إنشاء دائرة فئة مجردة باستخدام طرق مجردة للرسم
+TypeError: لا يمكن تعديل ذاكرة القراءة فقط
+TypeError: f() تأخذ وسيطة واحدة على الأقل (0 معطى)
+TypeError: كائن 'NoneType' غير قابل للاشتراك
+خطأ في النوع: نوع غير قابل للتجزئة: "مجموعة"
+خطأ في النوع: نوع غير قابل للتجزئة: "مجموعة"
+TypeError: الوسيط () حصل على بعض الوسائط الموضعية فقط التي تم تمريرها كوسائط للكلمات الرئيسية: 'data'
+TypeError: يمكنه فقط وصل سلسلة (وليس "custom.Custom") إلى سلسلة
+خطأ في الكتابة: تقليل () التسلسل الفارغ بدون قيمة أولية
+خطأ في النوع: تم تعريف "SQUARE" بالفعل على أنه 2
+TypeError: '<' غير مدعوم بين مثيلات 'Color' و'Color'
+خطأ TypeError: لا يمكن لـ <enum 'MoreColor'> توسيع <enum 'Color'>
+خطأ في الكتابة: ترتيب الأعضاء لا يتطابق مع _order_:
+TypeError: نوع (أنواع) المعامل غير مدعومة لـ ** أو pow(): 'str' و'int'
+TypeError: '>=' غير مدعوم بين مثيلات 'NoneType' و'int'
+TypeError: من المتوقع أن يكون الحرف "V" عبارة عن int أو float
+TypeError: لا توجد سمة '__dict__' على مثيل 'CP' لتخزين خاصية 'pi' مؤقتًا.
+TypeError: الكائن من النوع "C" لا يحتوي على len()
+TypeError: يحتاج الواصف '__hash__' للكائن 'int' إلى وسيطة
+TypeError: حصلت f() على قيم متعددة لوسيطة الكلمة الرئيسية "a"
+UnboundLocalError: المتغير المحلي 'x' المشار إليه قبل التعيين
+رفع UnicodeError("حرف غير صالح %r" % c)
+رفع UnicodeError("انتهاك متطلبات BIDI 2")
+رفع UnicodeError("انتهاك متطلبات BIDI 3")
+رفع UnicodeError("التسمية فارغة أو طويلة جدًا")
+رفع UnicodeError("التسمية فارغة أو طويلة جدًا")
+رفع UnicodeError("التسمية تبدأ ببادئة ACE")
+رفع UnicodeError("التسمية فارغة أو طويلة جدًا")
+رفع UnicodeError("التسمية طويلة جدًا")
+رفع UnicodeError("حرف غير صالح في تسمية IDN")
+رفع UnicodeError ("IDNA لا يسافر ذهابًا وإيابًا"، label، label2)
+رفع UnicodeError("معالجة الأخطاء غير المدعومة"+أخطاء)
+رفع UnicodeError("التسمية فارغة أو طويلة جدًا")
+رفع UnicodeError("التسمية طويلة جدًا")
+رفع UnicodeError("معالجة الأخطاء غير مدعومة"+أخطاء)
+رفع UnicodeError("معالجة الأخطاء غير المدعومة"+أخطاء)
+رفع UnicodeError("معالجة الأخطاء غير مدعومة"+أخطاء)
+رفع UnicodeError("سلسلة Punicode غير مكتملة")
+رفع UnicodeError("نقطة التعليمات البرمجية الموسعة غير صالحة '%s'"
+رفع UnicodeError("حرف غير صالح U+%x" % char)
+رفع UnicodeError("معالجة الأخطاء غير مدعومة"+أخطاء)
+رفع UnicodeError("معالجة الأخطاء غير مدعومة"+self.errors)
+رفع UnicodeError("ترميز غير محدد")
+رفع UnicodeError("ترميز غير محدد")
+رفع UnicodeError("ترميز غير محدد")
+رفع UnicodeError("ترميز غير محدد")
+رفع UnicodeError ("دفق UTF-32 لا يبدأ بـ BOM")
+رفع UnicodeError ("دفق UTF-32 لا يبدأ بـ BOM")
+رفع UnicodeError("لا يبدأ دفق UTF-16 بـ BOM")
+رفع UnicodeError("لا يبدأ دفق UTF-16 بـ BOM")
+رفع UnicodeError
+رفع UnicodeError
+رفع UnicodeError
+رفع UnicodeError("URL" + repr(url) +
+# UnicodeEncodeError: إذا لم يكن اسم الحزمة أو اسم المورد UTF-8،
+self.assertIn(b"UnicodeEncodeError: برنامج الترميز \'ascii\' لا يمكنه تشفير الحرف "
+``UnicodeEncodeError: برنامج الترميز 'latin-1' لا يمكنه ترميز الحرف '\u1234' في
+UnicodeEncodeError: يتعذر على برنامج الترميز 'ascii' ترميز الحرف '\ua000' في
+# UnicodeDecodeError: فشل في فك تشفير tp_name bytestring
+# UnicodeDecodeError: فشلت السلسلة () في فك تشفير السلسلة الثانوية
+UnicodeDecodeError: يتعذر على برنامج الترميز "utf-8" فك تشفير البايت 0x80 في الموضع 0:
+// ValueError: وسيطة zip() 2 أقصر من الوسيطة 1
+// ValueError: وسيطة zip() 3 أقصر من الوسيطات 1-2
+ValueError: إذا كان *العنوان* الذي تم تمريره ليس v4 أو v6
+ValueError: إذا كانت السلسلة التي تم تمريرها ليست v4 أو v6
+ValueError: إذا كانت السلسلة التي تم تمريرها ليست v4 أو v6
+ValueError: إذا كان العدد الصحيح سالبًا أو كبيرًا جدًا بحيث لا يمكن اعتباره
+ValueError: إذا كان الإدخال يختلط بين الأصفار والواحدات
+NetmaskValueError: إذا كان الإدخال ليس قناع شبكة صالحًا
+NetmaskValueError: إذا كان الإدخال ليس قناع شبكة/قناع مضيف صالحًا
+خطأ القيمة: إذا لم يتم احتواء الآخر بشكل كامل ذاتيًا.
+ValueError: prefixlen_diff صغير جدًا أو كبير جدًا.
+خطأ القيمة: إذا كانت القيمة self.prefixlen - prefixlen_diff < 0. أي أن لديك
+AddressValueError: إذا لم يكن ip_str عنوان IPv4 صالحًا.
+ValueError: إذا لم تكن الثمانية عبارة عن رقم عشري من [0..255].
+AddressValueError: إذا لم يكن ipaddress عنوان IPv4 صالحًا.
+AddressValueError: إذا لم يكن ipaddress عنوان IPv4 صالحًا.
+NetmaskValueError: إذا كان قناع الشبكة غير صالح لـ
+ValueError: إذا كان الصارم صحيحًا وعنوان الشبكة ليس كذلك
+AddressValueError: إذا لم يكن ip_str عنوان IPv6 صالحًا.
+خطأ القيمة: إذا لم يكن الإدخال رقمًا سداسيًا بشكل صارم من
+ValueError: العنوان أكبر من 128 بت من جميع العناوين.
+AddressValueError: إذا كان العنوان ليس عنوان IPv6 صالحًا.
+AddressValueError: إذا كان العنوان ليس عنوان IPv6 صالحًا.
+NetmaskValueError: إذا كان قناع الشبكة غير صالح لـ
+خطأ القيمة: إذا كان الصارم صحيحًا ولم يكن عنوان الشبكة كذلك
+إذا كان b'ValueError: يجب أن يكون عدد الإطارات في النطاق' في stderr:
+إذا كان b'ValueError: يجب أن يكون عدد الإطارات في النطاق' في stderr:
+باستثناء خطأ القيمة: تمرير
+باستثناء خطأ القيمة: تمرير
+باستثناء خطأ القيمة: تمرير
+باستثناء خطأ القيمة: تمرير
+حاول: تمرير\nباستثناء ValueError: تمرير\nexcept* TypeError: pass\n
+حاول: تمرير\nباستثناء* ValueError: تمرير\nباستثناء TypeError: تمرير\n
+حاول: تمرير\nباستثناء ValueError: تمرير\nexcept* TypeError كـ e: pass\n
+حاول: تمرير\nباستثناء* ValueError: تمرير\nباستثناء TypeError كـ e: pass\n
+حاول: تمرير\nباستثناء ValueError: تمرير\nexcept*: تمرير\n
+حاول: تمرير\nباستثناء* خطأ القيمة: تمرير\nباستثناء: تمرير\n
+self.assertIn("ValueError: بعض الأخطاء"، خطأ)
+خطأ القيمة: هناك عدد كبير جدًا من القيم التي يجب فك ضغطها (المتوقع 2)
+خطأ القيمة: هناك عدد كبير جدًا من القيم التي يجب فك ضغطها (المتوقع 2)
+خطأ القيمة: لا توجد قيم كافية لتفريغها (المتوقع 4، حصلت على 3)
+خطأ القيمة: هناك عدد كبير جدًا من القيم التي يجب فك ضغطها (المتوقع 2)
+خطأ القيمة: هناك عدد كبير جدًا من القيم التي يجب فك ضغطها (المتوقع 0)
+self.assertIn('ValueError: فشل التشغيل'، stderr)
+self.assertIn('ValueError: خطأ'، stderr)
+self._check_error("محاولة: تمرير\nباستثناء ValueError: تمرير\nexcept* TypeError: pass"،
+self._check_error("محاولة: تمرير\nباستثناء* ValueError: تمرير\nexcept TypeError: pass"،
+ValueError: المولد قيد التنفيذ بالفعل
+# خطأ القيمة: _unsafe_setprec، _unsafe_setemin، _unsafe_setemax
+# ValueError: يمكن فقط تعيين تسلسل بنفس الحجم
+# خطأ الوسيطة: الوسيطة 1: خطأ القيمة: 99
+ValueError: المولد قيد التنفيذ بالفعل
+خطأ القيمة: 6
+خطأ القيمة: 7
+ValueError: خطأ في مجال الرياضيات
+ValueError: خطأ في مجال الرياضيات
+ValueError: خطأ في مجال الرياضيات
+ValueError: خطأ في مجال الرياضيات
+ValueError: خطأ في مجال الرياضيات
+ValueError: خطأ في مجال الرياضيات
+ValueError: خطأ في مجال الرياضيات
+ValueError: خطأ في مجال الرياضيات
+خطأ القيمة: لا توجد قيم كافية لتفريغها (من المتوقع 4 على الأقل، حصلت على 3)
+خطأ القيمة: لا توجد قيم كافية لتفريغها (من المتوقع 4 على الأقل، حصلت على 3)
+# "ValueError: عملية الإدخال/الإخراج في ملف مغلق" والتي تم تسجيلها كملف
+self.assertIn('ValueError: تنظيف سيء 2'، formatted_exc)
+self.assertIn('ValueError: تنظيف سيء 2'، formatted_exc)
+self.assertIn('ValueError: تنظيف سيء 2'، formatted_exc)
+self.assertIn('ValueError: تنظيف سيء 2'، formatted_exc)
+self.assertIn('ValueError: تنظيف سيء 2'، formatted_exc)
+self.assertIn('ValueError: تنظيف سيء 2'، formatted_exc)
+self.assertIn('ValueError: تنظيف سيء 2'، formatted_exc)
+self.assertIn('ValueError: تنظيف سيء 2'، formatted_exc)
+self.assertIn('ValueError: تنظيف سيء 2'، formatted_exc)
+مع self._assert_logged('ValueError: خطأ في أداة التهيئة'):
+خطأ القيمة: تم تعطيل [إجراءات المغلف الرقمي: EVP_DigestInit_ex] لـ FIPS
+خطأ القيمة: نوع التجزئة غير مدعوم md4
+>>> exc_msg = 'خطأ في القيمة: 1\n 2'
+'خطأ في القيمة: 1\n 2\n'
+>>> exc_msg = 'خطأ في القيمة: 1\n 2\n'
+'خطأ في القيمة: 1\n 2\n'
+ValueError: يحتوي السطر 4 من سلسلة المستندات الخاصة بـ some_test على مسافة بيضاء بادئة غير متناسقة: "مسافة بادئة"
+ValueError: يحتوي السطر 2 من سلسلة المستندات الخاصة بـ some_test على مسافة بيضاء بادئة غير متناسقة: '... 2))'
+ValueError: السطر 1 من سلسلة المستندات الخاصة بـ some_test ليس فارغًا بعد >>>: '>>>print(1)'
+ValueError: السطر 2 من سلسلة المستندات الخاصة بـ some_test يفتقر إلى الفراغ بعد ...: '...print(1)'
+... خطأ القيمة: متعدد
+... خطأ القيمة: رسالة خاطئة
+خطأ القيمة: رسالة خاطئة
+خطأ القيمة: رسالة
+... خطأ القيمة: رسالة خاطئة
+خطأ القيمة: رسالة
+خطأ القيمة: 2
+خطأ القيمة: 2
+ValueError: يحتوي السطر 1 من doctest لـ s على خيار غير صالح: '+BADOPTION'
+ValueError: يحتوي السطر 1 من doctest لـ s على خيار غير صالح: "ELLIPSIS"
+ValueError: السطر 0 من doctest لـ s يحتوي على توجيه خيار على سطر بدون مثال: '# doctest: +ELLIPSIS'
+ValueError: لا يجوز تحديد الحزمة إلا للمسارات المرتبطة بالوحدة النمطية.
+self.assertTrue(err.getvalue().endswith("ValueError: 42\n"))
+self.assertIn('ValueError: 42\n'، خطأ)
+r'خطأ في القيمة: خطأ\n'
+# ValueError: لا يمكن أن يكون واصف الملف عددًا صحيحًا سالبًا (-1)
+و' | خطأ في القيمة: 1\n'
+exp = ' الملف "<غير موجود>"، السطر 3، في <الوحدة النمطية>\nValueError: 42\n'
+و' | خطأ في القيمة: 1\n'
+و' | خطأ في القيمة: 1\n'
+و' | خطأ في القيمة: 3\n'
+و' | خطأ في القيمة: 1\n'
+و' | خطأ في القيمة: 3\n'
+و' | خطأ في القيمة: 1\n'
+و' | خطأ في القيمة: 4\n'
+و' | خطأ القيمة: 5\n'
+' | خطأ في القيمة: 0\n'
+' | خطأ في القيمة: 1\n'
+' | خطأ في القيمة: 2\n'
+' | خطأ في القيمة: 3\n'
+' | خطأ في القيمة: 4\n'
+' | خطأ القيمة: 5\n'
+' | خطأ القيمة: 6\n'
+' | خطأ القيمة: 7\n'
+' | خطأ القيمة: 8\n'
+' | خطأ القيمة: 9\n'
+' | خطأ القيمة: 10\n'
+' | خطأ القيمة: 11\n'
+' | خطأ في القيمة: 12\n'
+' | خطأ القيمة: 13\n'
+' | خطأ القيمة: 14\n'
+' | خطأ في القيمة: 999\n'
+' | خطأ في القيمة: 998\n'
+' | خطأ في القيمة: 997\n'
+' | خطأ في القيمة: 996\n'
+' | خطأ في القيمة: 995\n'
+' | خطأ في القيمة: 994\n'
+' | خطأ في القيمة: 993\n'
+' | خطأ في القيمة: 992\n'
+' | خطأ في القيمة: 991\n'
+' | خطأ في القيمة: 990\n'
+' | خطأ في القيمة: -990\n'
+' | خطأ في القيمة: -991\n'
+' | خطأ في القيمة: -992\n'
+' | خطأ في القيمة: -993\n'
+' | خطأ في القيمة: -994\n'
+' | خطأ في القيمة: -995\n'
+' | خطأ في القيمة: -996\n'
+' | خطأ في القيمة: -997\n'
+' | خطأ في القيمة: -998\n'
+' | خطأ في القيمة: -999\n'
+و' | خطأ في القيمة: قيمة سيئة\n'
+و' | خطأ القيمة: قيمة فظيعة\n'
+و' | خطأ في القيمة: قيمة سيئة\n'
+و' | خطأ القيمة: قيمة فظيعة\n'
+و' | خطأ القيمة: 42'،
+و' | خطأ القيمة: 24'،
+و' | خطأ القيمة: 0'،
+و' | خطأ القيمة: 1'،
+و' | خطأ القيمة: -2'،
+و' | خطأ القيمة: -1'،
+و' | خطأ القيمة: 1'،
+و' | خطأ القيمة: 2'،
+باستثناء خطأ القيمة: تمرير
+باستثناء خطأ القيمة: تمرير
+باستثناء ValueError: # ValueError: الإشارة تعمل فقط في الموضوع الرئيسي
+خطأ القيمة: لا توجد علامات اقتباس حول b''
+ValueError: لم يتم العثور على سطر جديد عند محاولة قراءة stringnl
+خطأ القيمة: من المتوقع وجود 50331648 بايت في السلسلة 4، ولكن تبقى 6 بايت فقط
+خطأ القيمة: من المتوقع وجود 50331648 بايت في بايت 4، ولكن تبقى 6 فقط
+خطأ القيمة: متوقع... بايت في بايت 8، لكن يبقى 6 بايت فقط
+ValueError: متوقع... بايت في bytearray8، لكن تبقى 6 بايت فقط
+ValueError: من المتوقع وجود 7 بايت في unicodestring1، ولكن تبقى 6 بايت فقط
+ValueError: من المتوقع وجود 7 بايت في unicodestring4، ولكن تبقى 6 بايت فقط
+ValueError: من المتوقع وجود 7 بايت في سلسلة unicodestring8، ولكن تبقى 6 بايت فقط
+خطأ القيمة: حرفي غير صالح لـ int() بأساس 10: b'1234L'
+خطأ القيمة: ("يسمح فقط بالإبلاغ عن العلامات"، 8)
+ValueError: من المتوقع وجود عنصر واحد بالضبط في العنصر القابل للتكرار، ولكنه حصل على 1، 2،
+:يرفع ValueError: عندما يتم توفير قيمة غير صالحة للاسم.
+باستثناء ValueError: # يُضاف فقط إذا كان مفقودًا، أي يُضاف مرة واحدة
+باستثناء ValueError: # أحتاج إلى هذا حتى يتم إصلاحه.
+باستثناء ValueError: # راجع العدد 1207589
+' | خطأ في القيمة: 1\n'
+' | خطأ في القيمة: 1\n'
+خطأ القيمة: لا يمكن تقريب NaN
+باستثناء ValueError: # pragma: لا يوجد غطاء
+خطأ القيمة: عملية الإدخال/الإخراج في ملف مغلق.
+خطأ القيمة: وسيطة zip() 2 أطول من الوسيطة 1
+خطأ القيمة: ليس منطقيًا: كلا
+ValueError: تم العثور على أسماء مستعارة في <enum 'Color'>: CRIMSON -> RED
+خطأ القيمة: تعداد غير صالح "اللون": القيم المفقودة 3 و4
+ValueError: علامة "اللون" غير صالحة: الأسماء المستعارة WHITE وNEON تفتقد القيم المدمجة 0x18 [استخدم enum.show_flag_values(value) للحصول على التفاصيل]
+ValueError: <flag 'StrictFlag'> قيمة غير صالحة 20
+ValueError: تم العثور على قيم مكررة في <enum 'Mistake'>: أربعة -> ثلاثة
+خطأ القيمة: n يجب أن يكون >= 0
+خطأ القيمة: يجب أن يكون n عددًا صحيحًا تمامًا
+خطأ القيمة: list.remove(x): x غير موجود في القائمة
+خطأ القيمة: متعدد
+خطأ القيمة: متعدد
+``ValueError: 42 هو أولي`` سوف يمر سواء كان :exc:`ValueError` بالفعل
+على سبيل المثال، سيتم تمرير مثال يتوقع ``ValueError: 42`` إذا كان الخطأ الفعلي
+الاستثناء الذي تم طرحه هو ``ValueError: 3*14``، ولكنه سيفشل إذا حدث، على سبيل المثال، خطأ
+خطأ القيمة: '/etc/passwd' ليس موجودًا في المسار الفرعي لـ '/usr' أو أن أحد المسارين نسبي والآخر مطلق.
+ValueError: '/etc/passwd' ليس موجودًا على نفس محرك الأقراص مثل 'foo' أو أن أحد المسارين نسبي والآخر مطلق.
+خطأ القيمة: يحتوي PureWindowsPath('c:/') على اسم فارغ
+خطأ القيمة: يحتوي PureWindowsPath('c:/') على اسم فارغ
+خطأ القيمة: الوسيطة zip() 2 أقصر من الوسيطة 1
+خطأ القيمة: عنصر نائب غير صالح في السلسلة: السطر 1، العمود 11
+خطأ القيمة: تحديد المتغير `my_name`!
+ValueError: تعيين عرض الذاكرة: lvalue وrvalue لهما هياكل مختلفة
+ValueError: العملية محظورة على كائن عرض الذاكرة الذي تم إصداره
+ValueError: العملية محظورة على كائن عرض الذاكرة الذي تم إصداره
+خطأ القيمة: عرض الذاكرة: قيمة غير صالحة للتنسيق "B"
+ValueError: يتجاوز الحد الأقصى (4300 رقم) لتحويل السلسلة الصحيحة: القيمة تحتوي على 5432 رقمًا؛ استخدم sys.set_int_max_str_digits() لزيادة الحد.
+ValueError: يتجاوز الحد الأقصى (4300 رقم) لتحويل السلسلة الصحيحة: القيمة تحتوي على 8599 رقمًا؛ استخدم sys.set_int_max_str_digits() لزيادة الحد.
+ipaddress.AddressValueError: 4294967296 (>= 2**32) غير مسموح به كعنوان IPv4
+خطأ القيمة: يجب أن تكون البادئة الجديدة أطول
+ValueError: يتجاوز مساحة التخزين المتاحة للسلسلة الموجودة
+خطأ القيمة: من المحتمل أن يتم استدعاء الإجراء باستخدام وسائط غير كافية (4 بايت مفقودة)
+ValueError: من المحتمل أن يتم استدعاء الإجراء باستخدام عدد كبير جدًا من الوسائط (4 بايتات زائدة)
+خطأ القيمة: الوصول إلى المؤشر NULL
+خطأ القيمة: الوصول إلى المؤشر NULL
+خطأ القيمة: الحد الأدنى للحجم هو 8
+خطأ القيمة: ليس رقمًا عشريًا
+ValueError: عقدة أو سلسلة مشوهة: <_ast.Call object at 0x101739a10>
+خطأ القيمة: محاولة تعيين تسلسل الحجم 3 للشريحة الموسعة بالحجم 2
+ValueError: عينة أكبر من عدد السكان
+باستثناء TypeError، ValueError: # خطأ!
+خطأ القيمة: سلسلة مشوهة
+ValueError: تم العثور على قيم مكررة في <enum 'Mistake'>: أربعة -> ثلاثة
+ValueError: الأسماء المستعارة غير مسموح بها في DuplicateFreeEnum: 'GRENE' --> 'GREEN'
+خطأ القيمة: 192.0.2.1/24 يحتوي على مجموعة بتات مضيفة
+ValueError: لا يبدو أن "192.168.0.256" هو عنوان IPv4 أو IPv6
+ipaddress.AddressValueError: الثماني 256 (> 255) غير مسموح به في "192.168.0.256"
+خطأ القيمة: لا يبدو أن "192.168.0.1/64" يمثل شبكة IPv4 أو IPv6
+ipaddress.NetmaskValueError: '64' ليس قناع شبكة صالحًا
+ValueError: من المتوقع أن يكون <method 'isupper' لكائنات 'str'> صحيحًا لـ 'Widget'
+ValueError: من المتوقع أن تكون كلمة "metle" واحدة من {'metal'، 'plastic'، 'wood'}
+خطأ القيمة: من المتوقع أن تكون القيمة -5 على الأقل 0
+| خطأ القيمة: 1
+باستثناء ZeroDivisionError: pass
+خطأ ZeroDivision: القسمة على صفر
+ZeroDivisionError: تقسيم عدد صحيح أو modulo على صفر
+ZeroDivisionError: تقسيم عدد صحيح أو modulo على صفر
+ZeroDivisionError: لا يمكن رفع 0.0 إلى قوة سالبة
+باستثناء ZeroDivisionError: pass
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+self.assertIn('ZeroDivisionError: القسمة على صفر'، formatted_exc)
+... ZeroDivisionError: تقسيم عدد صحيح أو modulo على صفر
+... ZeroDivisionError: تقسيم عدد صحيح أو modulo على صفر
+ZeroDivisionError: تقسيم عدد صحيح أو modulo على صفر
+ZeroDivisionError: تقسيم عدد صحيح أو modulo على صفر
+b'ZeroDivisionError: القسمة على صفر'
+self.assertEqual(lines[3], b'ZeroDivisionError: القسمة على صفر')
+self.assertEqual(lines[3], b'ZeroDivisionError: القسمة على صفر')
+b'ZeroDivisionError: القسمة على صفر']
+"خطأ ZeroDivision: القسمة على صفر"،
+و' | خطأ ZeroDivision: القسمة على صفر،
+باستثناء ZeroDivisionError: pass
+باستثناء ZeroDivisionError: pass
+باستثناء ZeroDivisionError: pass
+باستثناء ZeroDivisionError: pass
+باستثناء ZeroDivisionError: pass
+باستثناء ZeroDivisionError: pass
+' خطأ ZeroDivision: القسمة على صفر\n'
+' خطأ ZeroDivision: القسمة على صفر\n'
+خطأ ZeroDivision: القسمة على صفر
+ZeroDivisionError: تقسيم عدد صحيح أو modulo على صفر
+ZeroDivisionError: تقسيم عدد صحيح أو modulo على صفر
+خطأ ZeroDivision: القسمة على صفر
+logging.exception('ZeroDivisionError: %s', e)
+28/01/2015 07:21:23|خطأ|ZeroDivisionError: قسمة عدد صحيح أو modulo على صفر|'تتبع (آخر استدعاء):\n ملف "logtest7.py"، السطر 30، في الملف الرئيسي\n x = 1 / 0\nZeroDivisionError: قسمة عدد صحيح أو modulo على صفر'|
+تحذير: العرض التوضيحي: ZeroDivisionError: القسمة على صفر
+خطأ ZeroDivision: القسمة على صفر
+خطأ ZeroDivision: القسمة على صفر
+خطأ في الاسم: لم يتم تعريف الاسم "valeur".
+خطأ في بناء الجملة: لا مثيل له ')'
+خطأ في الاسم: لم يتم تعريف الاسم "imprime".
+خطأ في SyntaxError: EOL أثناء فحص السلسلة الحرفية
+خطأ في الاسم: لم يتم تعريف الاسم "z".
+خطأ في الاسم: لم يتم تعريف الاسم "impimir".
+خطأ في الاسم: لم يتم تعريف الاسم 'τύωσε'
+خطأ في SyntaxError: EOF غير متوقع أثناء التحليل
+خطأ في SyntaxError: حرف غير صالح للطباعة U+202C
+خطأ في SyntaxError: حرف غير صالح للطباعة U+202A
+خطأ في الاسم: لم يتم تعريف الاسم "طباعة".
+خطأ في الاسم: لم يتم تعريف الاسم "prit".
+خطأ في الاسم: لم يتم تعريف الاسم "prin".
+خطأ في الاسم: لم يتم تعريف الاسم "PRT".
+خطأ في الاسم: لم يتم تعريف الاسم "طباعة".
+خطأ المسافة البادئة: مسافة بادئة غير متوقعة
+خطأ في الاسم: لم يتم تعريف الاسم "طباعة".
+NameError: name 'طباعة' is not defined

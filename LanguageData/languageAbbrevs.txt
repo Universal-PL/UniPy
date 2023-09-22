@@ -6,3 +6,4 @@ Mandarin,zh-CN
 Kurdish,ku
 Hindi,hi
 Bengali,bn
+Arabic,ar

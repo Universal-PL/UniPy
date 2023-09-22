@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+// IMPORTANT: When updating the languages, make sure to update const rtlLanguages in the updateClasses() and the Render() functions!
+
 class App extends Component {
   state = {
     selectedLang1: 'English',
@@ -9,6 +11,17 @@ class App extends Component {
     output: []
   };
 
+    alignBoxes() {
+        // make sure that boxes align text correctly
+        const rtlLanguages = ['Kurdish', 'Arabic'];
+        const selectedLang1 = document.getElementById('Language1').value;
+        const selectedLang2 = document.getElementById('Language2').value;
+        
+        document.getElementById('ToTranslate').className = rtlLanguages.includes(selectedLang1) ? 'rtl-textbox' : 'ltr-textbox';
+
+        document.getElementById('Translation').className = rtlLanguages.includes(selectedLang2) ? 'rtl-textbox' : 'ltr-textbox';
+    }
+    
   componentDidMount() {
     this.getCodeText();
     // Add event listener for Tab key in the textareas
@@ -25,41 +38,52 @@ class App extends Component {
       .then(codeText => this.setState({ codeText }));
   }
     
+    updateClasses = () => {
+      const rtlLanguages = ['Kurdish', 'Arabic'];
+      const selectedLang1 = document.getElementById('Language1').value;
+      const selectedLang2 = document.getElementById('Language2').value;
+
+      const box1 = document.getElementById('ToTranslate');
+      box1.className = rtlLanguages.includes(selectedLang1) ? 'rtl-textbox' : 'ltr-textbox';
+
+      const box2 = document.getElementById('Translation');
+      box2.className = rtlLanguages.includes(selectedLang2) ? 'rtl-textbox' : 'ltr-textbox';
+    };
+
     Swap = () => {
-        
-        // swap what's in the editor boxes
-        const box1 = document.getElementById('ToTranslate');
-        const code1 = box1.value;
-        const box2 = document.getElementById('Translation');
-        const code2 = box2.value;
-        
-        box1.value = code2;
-        box2.value = code1;
-        
-        // swap the languages
-        const lang1 = document.getElementById('Language1');
-        const lang2 = document.getElementById('Language2');
-        const temp = lang1.value;
-        lang1.value = lang2.value;
-        lang2.value = temp;
-        
-    }
-    
+      const box1 = document.getElementById('ToTranslate');
+      const code1 = box1.value;
+      const box2 = document.getElementById('Translation');
+      const code2 = box2.value;
+      
+      box1.value = code2;
+      box2.value = code1;
+      
+      // Swap the languages
+      const lang1 = document.getElementById('Language1');
+      const lang2 = document.getElementById('Language2');
+      const temp = lang1.value;
+      lang1.value = lang2.value;
+      lang2.value = temp;
 
-  DoTranslate = () => {
-    const englBox = document.getElementById('ToTranslate');
-    const EnglCode = englBox.value;
-    const textBox = document.getElementById('Translation');
-    const Language1Box = document.getElementById('Language1');
-    const Language1 = Language1Box.value;
-    const Language2Box = document.getElementById('Language2');
-    const Language2 = Language2Box.value;
+      // Update classes for the textboxes based on the swapped languages
+      this.updateClasses();
+    };
 
-    fetch('/Translate', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ code: EnglCode, lang1: Language1, lang2: Language2 })
-    })
+    DoTranslate = () => {
+      const englBox = document.getElementById('ToTranslate');
+      const EnglCode = englBox.value;
+      const textBox = document.getElementById('Translation');
+      const Language1Box = document.getElementById('Language1');
+      const Language1 = Language1Box.value;
+      const Language2Box = document.getElementById('Language2');
+      const Language2 = Language2Box.value;
+
+      fetch('/Translate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code: EnglCode, lang1: Language1, lang2: Language2 })
+      })
       .then(response => {
         if (response.ok) {
           console.log('Translation request sent successfully');
@@ -77,7 +101,11 @@ class App extends Component {
       .catch(error => {
         console.error('Error:', error);
       });
-  };
+
+      // Update classes for the textboxes based on the selected languages
+      this.updateClasses();
+    };
+
 
     DoExecuteOriginal = () => {
       const CodeToRun = document.getElementById('ToTranslate').value;
@@ -202,6 +230,7 @@ class App extends Component {
 
   render() {
     const { translation } = this.state;
+    const rtlLanguages = ['Kurdish', 'Arabic'];
 
     return (
             <div className="App">
@@ -219,8 +248,11 @@ class App extends Component {
                 <option value="Bengali">Bengali</option>
                 <option value="Mandarin">Mandarin</option>
                 <option value="Kurdish">Kurdish</option>
+                <option value="Arabic">Arabic</option>
               </select>
-                <textarea rows="22" cols="35" id="ToTranslate" name="ToTranslate" className={this.state.selectedLang1 === 'Kurdish' ? 'rtl-textbox' : ''}></textarea>
+                <textarea rows="22" cols="35" id="ToTranslate" name="ToTranslate" className={
+                    rtlLanguages.includes(this.state.selectedLang1) ? 'rtl-textbox' : 'ltr-textbox'
+                  }></textarea>
                       </p>
                       <p>
                       <h1>UniPy</h1>
@@ -245,9 +277,12 @@ class App extends Component {
                 <option value="Bengali">Bengali</option>
                 <option value="Mandarin">Mandarin</option>
                 <option value="Kurdish">Kurdish</option>
+                <option value="Arabic">Arabic</option>
                 <option value="English">English</option>
               </select>
-                <textarea rows="22" cols="35" id="Translation" name="Translation" className={this.state.selectedLang2 === 'Kurdish' ? 'rtl-textbox' : ''}></textarea>
+                <textarea rows="22" cols="35" id="Translation" name="Translation" className={
+                    rtlLanguages.includes(this.state.selectedLang2) ? 'rtl-textbox' : 'ltr-textbox'
+                  }></textarea>
                       </p>
             </div>
             <div className="exec">

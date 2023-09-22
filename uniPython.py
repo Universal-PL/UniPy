@@ -107,8 +107,9 @@ def swapLineOrder(line):
     #print('result after swapping:',result)
     #return result
     return tokens
-    
-    
+
+###############################
+# similar to the swapLineOrder(), but for RTL -> LTR
 def swapBack(line):
     # goes through line similarly to main program, but just swaps order
     tokens = list()
@@ -201,7 +202,7 @@ def swapBack(line):
 
 
 # determining whether term order needs to be switched (support for right-left languages)
-RTL = ['Kurdish'] # UPDATE THIS AND StringCodeTranslator.py AS LANGUAGE LIST GROWS!!!
+RTL = ['Kurdish','Arabic'] # UPDATE THIS AND StringCodeTranslator.py AS LANGUAGE LIST GROWS!!!
 lang1 = sys.argv[1]
 lang2 = 'English'
 orderSwap = False
