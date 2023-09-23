@@ -7,6 +7,7 @@ import subprocess
 import sys
 import string
 from googletrans import Translator
+from unicodedata import category
 
 
 
@@ -23,7 +24,7 @@ def swapLineOrder(line):
         # finding the words
         word = ""
         word_flag = False
-        while i<len(line) and line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
+        while i<len(line) and is_any_alpha(i):#line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
             word_flag = True
             word += line[i]
             i += 1
@@ -41,7 +42,7 @@ def swapLineOrder(line):
                 tokens.insert(0,word)
             
         # now write the other separators/operators/etc.
-        while (i < len(line) and line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
+        while (i < len(line) and not is_any_alpha(line[i])):#line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
             # for not reordering comments, things in quotes, etc.
             if line[i] == "#" and not comment:
                 comment = True
@@ -120,7 +121,7 @@ def swapBack(line):
         # finding the words
         word = ""
         word_flag = False
-        while i >= 0 and line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
+        while i >= 0 and is_any_alpha(line[i]):#line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
             word_flag = True
             word = line[i] + word
             i -= 1
@@ -138,7 +139,7 @@ def swapBack(line):
                 tokens.insert(len(line)-1,word)
             
         # now write the other separators/operators/etc.
-        while (i >= 0 and line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
+        while (i >= 0 and not is_any_alpha(line[i])):#line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
             # for not reordering comments, things in quotes, etc.
             if line[i] == "#" and not comment:
                 comment = True
@@ -215,9 +216,12 @@ elif (lang1 in RTL and lang2 not in RTL):
     to_RTL = False
 
 # set of non-alphanumeric characters used in Python
-non_alpha = {' ','\t','\n'}
-non_alpha = non_alpha.union(string.punctuation)
-non_alpha.remove('_')
+# include '_' in this set since key terms may have these instead of ' '
+def is_any_alpha(s):
+    return (s=='_') or all(category(c)[0] in ["M", "L"] for c in s)
+#non_alpha = {' ','\t','\n'}
+#non_alpha = non_alpha.union(string.punctuation)
+#non_alpha.remove('_')
 
 language = sys.argv[1]
 file_to_translate = str(sys.argv[2])
@@ -275,7 +279,7 @@ while line != "":
         # all entries in foreign dict either '_' or alphabetic characters
         #   (foregin font scripts or otherwise)
         word_flag = False
-        while i<len(line) and line[i] not in non_alpha:#(line[i] == '_' or line[i] not in non_alpha):  #((line[i].isalpha()) or (line[i] == '_')):
+        while i<len(line) and is_any_alpha(line[i]):#line[i] not in non_alpha:#(line[i] == '_' or line[i] not in non_alpha):  #((line[i].isalpha()) or (line[i] == '_')):
             #print("'"+line[i]+"'")
             word_flag = True
             if line[i] != '\u202A' and line[i] != '\u202C':
@@ -311,7 +315,7 @@ while line != "":
 
         # now write the other separators/operators/etc.
         # if a separator is first in the line, the prior part of loop is skipped
-        while (i < len(line) and line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
+        while (i < len(line) and not is_any_alpha(line[i])):#line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
             # for not translating comments, things in quotes, etc.
             if line[i] == "#":
                 comment = True
@@ -397,7 +401,7 @@ while list_index < len(output_list)-1:
         # all entries in foreign dict either '_' or alphabetic characters
         #   (foregin font scripts or otherwise)
         word_flag = False
-        while (i<len(line) and line[i] not in non_alpha):#(line[i].isalpha()) or (line[i] == '_')):
+        while (i<len(line) and is_any_alpha(line[i])):#line[i] not in non_alpha):#(line[i].isalpha()) or (line[i] == '_')):
             #print("'"+line[i]+"'")
             #print(Foreign_output)
             word_flag = True
@@ -428,7 +432,7 @@ while list_index < len(output_list)-1:
 
         # now write the other separators/operators/etc.
         # if a separator is first in the line, the prior part of loop is skipped
-        while (i < len(line) and line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
+        while (i < len(line) and not is_any_alpha(line[i])):#line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
             # for not translating things in quotes
             if line[i] == "#":
                 comment = True
@@ -570,7 +574,7 @@ for line in error_list:
         comment = False
         index = 0
         for i in line:
-            if i not in non_alpha:#i.isalpha() or i=='_':
+            if is_any_alpha(i):#i not in non_alpha:#i.isalpha() or i=='_':
                 # if this isn't a comment, and we're either not in a string or we are within fstring braces, then translate
                 if not comment and ((not string[0]) or fstr_braces):
                     word_flag = True

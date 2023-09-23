@@ -12,6 +12,7 @@
 
 import sys
 import string
+from unicodedata import category
 
 ### MAIN IDEA OF THIS VERSION IS, AFTER REORDERING THE SENTENCE, TOKENIZE EVERYTHING IN AN ARRAY, AND TRANSLATE AFTERWARDS
 
@@ -25,7 +26,7 @@ def swapLineOrder(line):
         # finding the words
         word = ""
         word_flag = False
-        while i<len(line) and line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
+        while i<len(line) and is_any_alpha(line[i]):#line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
             word_flag = True
             word += line[i]
             i += 1
@@ -43,7 +44,7 @@ def swapLineOrder(line):
                 tokens.insert(0,word)
             
         # now write the other separators/operators/etc.
-        while (i < len(line) and line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
+        while (i < len(line) and not is_any_alpha(line[i])):#line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
             # for not reordering comments, things in quotes, etc.
             if line[i] == "#" and not comment:
                 comment = True
@@ -123,7 +124,7 @@ def swapBack(line):
         # finding the words
         word = ""
         word_flag = False
-        while i >= 0 and line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
+        while i >= 0 and is_any_alpha(line[i]):#line[i] not in non_alpha:#(line[i].isalpha()) or (line[i] == '_')):
             word_flag = True
             word = line[i] + word
             i -= 1
@@ -141,7 +142,7 @@ def swapBack(line):
                 tokens.insert(len(line)-1,word)
             
         # now write the other separators/operators/etc.
-        while (i >= 0 and line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
+        while (i >= 0 and not is_any_alpha(line[i])):#line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
             # for not reordering comments, things in quotes, etc.
             if line[i] == "#" and not comment:
                 comment = True
@@ -204,7 +205,6 @@ def swapBack(line):
 
 Lang1_list = list()
 Lang2_list = list()
-
 # determining whether term order needs to be switched (support for right-left languages)
 RTL = ['Kurdish','Arabic'] # UPDATE THIS AND uniPython.py AS LANGUAGE LIST GROWS!!!
 lang1 = sys.argv[2]
@@ -223,9 +223,12 @@ elif (lang1 in RTL and lang2 in RTL):
     both_RTL = True
     
 # set of non-alphanumeric characters used in Python
-non_alpha = {' ','\t','\n', '\r', '\b'}
-non_alpha = non_alpha.union(string.punctuation)
-non_alpha.remove('_')
+# include '_' in this set since key terms may have these instead of ' '
+def is_any_alpha(s):
+    return (s=='_') or all(category(c)[0] in ["M", "L"] for c in s)
+#non_alpha = {' ','\t','\n', '\r', '\b'}
+#non_alpha = non_alpha.union(string.punctuation)
+#non_alpha.remove('_')
 
 Lang1_file = open('LanguageData/'+sys.argv[2]+'Key.txt','r')
 # reading data for first language
@@ -243,7 +246,6 @@ while line != "":
     Lang2_list.append(line.split()[0].strip()) # append without extra '\n'
     line = Lang2_file.readline()
 Lang2_file.close()
-
 
 
 # create new py file as the result:
@@ -286,7 +288,7 @@ while line != "":
         # all entries in foreign dict either '_' or alphabetic characters
         #   (foregin font scripts or otherwise)
         word_flag = False
-        while i<len(line) and line[i] not in non_alpha:#(line[i] == '_' or line[i] not in non_alpha): #((line[i].isalpha()) or (line[i] == '_')):
+        while i<len(line) and is_any_alpha(line[i]):#line[i] not in non_alpha:#(line[i] == '_' or line[i] not in non_alpha): #((line[i].isalpha()) or (line[i] == '_')):
             #print(line[i])
             # Milind: check for nltk, stopwords, numbers, escape sequences in ASCII instead
             #print("'"+line[i]+"', i =",i)
@@ -305,7 +307,7 @@ while line != "":
             replace_flag = False
             if delimeter_quotes[0] == False and (not comment) or (delimeter_quotes[0] and fstring_braces and not comment):
                 for j in range(0, len(Lang1_list)-1):
-                    #print('compare to:',Lang1_list[j])
+                    #print(word,'compare to:',Lang1_list[j])
                     if Lang1_list[j] == word:
                         # set replace flag to True and break
                         # write the English version of the word in the new Py file
@@ -327,7 +329,7 @@ while line != "":
 
         # now write the other separators/operators/etc.
         # if a separator is first in the line, the prior part of loop is skipped
-        while (i < len(line) and line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
+        while (i < len(line) and not is_any_alpha(line[i])):#line[i] in non_alpha):#(not line[i].isalpha()) and line[i] != '_'):
             # for not translating comments, things in quotes, etc.
             if line[i] == "#":
                 comment = True
