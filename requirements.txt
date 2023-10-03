@@ -1,4 +1,4 @@
-# requirements for the demo
+# pip requirements for the demo
 googletrans
 
 # npm versions
