@@ -1,21 +1,9 @@
-‬‪‪‬‬‬‪‬‬‪‪‪‬‪‬‬‪‪‪ছাপা‬‬‬‪‪‬‪‬‬‬‪‪‬‪‪‪‬‬‪('hello world') # comment
-‬‬‪‪‪জন্য‬‬‬‪‪ i ‬‬‪‪‪ভিতরে‬‬‬‪‪ ‬‬‪‪‪পরিসীমা‬‬‬‪‪(3):
-	‬‬‪‪‪ছাপা‬‬‬‪‪('pizza')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+‪‪‪imprimir‬‬‬('Hello World') # this is a comment
+x = 3
+‪‪‪para‬‬‬ i ‪‪‪en‬‬‬ ‪‪‪rango‬‬‬(x):
+	‪‪‪imprimir‬‬‬(i)
+	‪‪‪si‬‬‬ i % 2 == 0:
+		‪‪‪imprimir‬‬‬('even')
+	‪‪‪sino‬‬‬:
+		‪‪‪imprimir‬‬‬('odd')
+‪‪‪imprimir‬‬‬('complete')
